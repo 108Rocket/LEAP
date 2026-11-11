@@ -1,0 +1,11 @@
+{
+  "format": "historical settings extract, not a runnable CLI job",
+  "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+  "settings": {
+    "seed": 2000,
+    "metric": "hausdorff",
+    "n": 1597579,
+    "k": 20,
+    "gpu": "NVIDIA L20"
+  }
+}

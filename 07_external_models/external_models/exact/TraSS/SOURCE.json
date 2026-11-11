@@ -1,0 +1,723 @@
+{
+  "version": 1,
+  "model": "TraSS",
+  "repository": "https://github.com/huajunge/k-sim.git",
+  "commit": "9bbc219ccd7fd3564eaee9cb3051c45144a169ed",
+  "git_tree": "6cbaf4e020917fa10a62c507c93f4b8a081baca1",
+  "source_directory": "upstream",
+  "files": {
+    "README.md": {
+      "sha256": "c3e286d819660e5961a8d7fd6d04599c02a811850bda6432e3a4d7a3977cc6af",
+      "git_blob": "9f8a46e4b1591c2d485f76816f715f7c68159bd2",
+      "mode": "100644"
+    },
+    "pom.xml": {
+      "sha256": "b68a5aee632b304be4b89cbc69207324bd0e19c45a23a0fa77bb5f86f58a482c",
+      "git_blob": "f308f6ad885e20d8a3bd7b7bd213b5587c04f829",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/disks/Client.java": {
+      "sha256": "05d28d881f61ba9656dabe15856b567a0001a2ff4f484e3c54cfb7539c0fa295",
+      "git_blob": "c51a4a9ddc973875c3b8f6d4362b1abcea730de0",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/disks/KNNClient.java": {
+      "sha256": "728eb6c334dd219cb983aac9112c2f95d99e48c58d99827bf800e07729164ed6",
+      "git_blob": "acb64d472ccd8bb5601b57dfa291164abf9fe0bf",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/entity/EnlargedElement.java": {
+      "sha256": "be3300c986ffe936205b16f638d4469a0b1d5a904b81728446f7e6180764d535",
+      "git_blob": "cc1f4de1f97e2711f5850c9e9018e8b8d3c6dac9",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/entity/IndexedSpace.java": {
+      "sha256": "1f69ed0ed1b8f6f886f37fe90e730607dd2a05a6da5060875c8f593cfe35c1ed",
+      "git_blob": "056d62dca35de64cdb9bae985c3d6c4ae6a8dec9",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/entity/Trajectory.java": {
+      "sha256": "b32775897f19ae959e13ca9616224c4ce3c793608a42c62c5b8fc9d93a391c02",
+      "git_blob": "633737fe357ffdd9d2bf4bd9c478e25dd109bf5e",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/experiments/RtreeTest.java": {
+      "sha256": "aca0e381b3c228dd4421d40d6b09abcb137b8c3d1d3938f7f82ea098e07a5b3c",
+      "git_blob": "b4b2cad264e137ac0860181e838e552506893245",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/CalculateSimilarity.java": {
+      "sha256": "731450213d5d0f1ba7b852b72dd6ac9ef39159a01f0687557c4ffbb96258ae6c",
+      "git_blob": "2c62e3646b176dc9d3bc05d43b1a6db2d20bfc98",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/CountFilter.java": {
+      "sha256": "2c8620c99e964eab7fe71b2a47ce7f173ac1a41665fc02a6cb6fa82c42030ae3",
+      "git_blob": "d68c9aa75226beba2888476552660748f9476ef0",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/CustomFilter.java": {
+      "sha256": "a8c4e0eda6de327adde5ef502d79c7afe376d6022bd762c47ce7478883b6c655",
+      "git_blob": "9a932286b799b7ff823456774f546ded8c983c8d",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/CustomFilterExample.java": {
+      "sha256": "f411dc6bcae3945a1bc5cd0a386c8d84cd2ed5d859955fcc0cd8cc1ce3315f14",
+      "git_blob": "71bd2b026a0f87b88574babab50717775355c328",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/PivotsFilter.java": {
+      "sha256": "0cd782a0217ee42bf54e7921baf3439d120d11fd852e1ba54a0bd14c6dda9f59",
+      "git_blob": "ca21b2104b29c0971b0d3df08ecaf392c1991e29",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/PivotsFilter2.java": {
+      "sha256": "33c2496dc832284096d50f4231266a55fe2c8e7b653c91213137d5852f1d4ae5",
+      "git_blob": "4374173acc9a0d4bf55f9d49ad66458d1da49812",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/SimilarityFilterCount.java": {
+      "sha256": "22e42413c1486fc42562a4e7f9eaeff381f74125e93c6bfa7b8cf7b80bf2f2e3",
+      "git_blob": "2b15e0b7581cd511c6dc6d18976c3ea5202cc438",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/filter/WithoutMemoryFilter.java": {
+      "sha256": "f798a691a796b0c1ea8a43adf2ad9306e9fd74e4f535e134b2fb09e06dc0cb58",
+      "git_blob": "df6fa4aabf79292bf5400f13b235fb034876c9a1",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/preprocess/HeuristicFilterAndSegment.java": {
+      "sha256": "1ee69d701cb3a77d5bc99c9ad21ec97f35ce2097115b56d831e5813f309f7bc2",
+      "git_blob": "12c1b2ce7fe47d311ff60ec0ae203a7bb0a0e752",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/similarity/DTW.java": {
+      "sha256": "9e189b6e87f3e408f17a38aefef4b39c44263d1f225167db92ddf851d8bc813b",
+      "git_blob": "c9390c74b809c71c6cadf76a5a1250807aa29158",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/similarity/Frechet.java": {
+      "sha256": "14b828aade7a2f2fd11a22c53df6f724c17cb6abe99faeb157946c7f326ff30d",
+      "git_blob": "a29ebb9c4b389f84568cb1105756a4869e564952",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/similarity/Hausdorff.java": {
+      "sha256": "8d361bccc95c6f44cbeb03d6637ab6591f4cf72849d838dab847e2cc9fa34409",
+      "git_blob": "3f3bf8e4d289e95156cdf308057b397bf1345ac3",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/dao/Client.java": {
+      "sha256": "42a4e5c9fe75f74bbfb9532147b90b65211a65eae40b450dc989ab19c880f55a",
+      "git_blob": "e6cf5e7e6f73a1b7a2ec93812ee5f297643711ec",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/endpoint/KNNCoprocessor.java": {
+      "sha256": "4618902ccf1a56ec07556e527afc8ac5e93f8fb98e80c35a36a50618b7b8e11e",
+      "git_blob": "aab51f0a6847d6cf03775f5e8d551cc3a180ea3b",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/endpoint/SumEndPoint.java": {
+      "sha256": "5c5e902d002586f62eb55b0c1a07aceb6ddc2c6a627e5edabb0d3bb1701d9ce6",
+      "git_blob": "4ab2fde07b8455a1e35126c11eebbf2a14e9c985",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/endpoint/Test.java": {
+      "sha256": "5021bfc943d9ab41980ad1770d22c2f72f38b4baf88fdafbd30c2fea213b296e",
+      "git_blob": "8cb68d3388ec30366ff830c37da17a923f8df540",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/entity/Trajectory.java": {
+      "sha256": "3ed682fe7d4db10254572b7dfcced273d8f44ed848efa662ef8db4359004b1d9",
+      "git_blob": "64945d2efd006233486741c33788fa2356dffd59",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/filter/CalculateSimilarity.java": {
+      "sha256": "e398dfb11a97210ebf4ed8bb2782528b2b7e79f3c5030aefa93877f714d43d25",
+      "git_blob": "63998e75340651f8bd796de92e4a9190a8aa03b8",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/filter/PivotsFilter.java": {
+      "sha256": "cb725dd313669b094e80edb83480a3a248b670e840e1d139e5278c34e41ce8f6",
+      "git_blob": "999b24762de0680115ce3b1805ebc4b9e06fa894",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/similarity/DTW.java": {
+      "sha256": "ccffbafb0fe8929cb27fa8d4dbcfa77bcae0f1535a8ef21f70161224e6962da1",
+      "git_blob": "e4ec33a4df5f845b69587aadf73f1c57989d9da6",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/similarity/Frechet.java": {
+      "sha256": "b7a3d5cd81ac2924161ab165036eb1d723f9e2bb38abdad8576c424ab523b883",
+      "git_blob": "58c5c2dbc7a6338f3dfd612fdbcb60a6e75d3d4e",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/similarity/Hausdorff.java": {
+      "sha256": "31872ad3238dc57b46269635b9587900ba9d3fe0befe6815ec8b441208c2cf0c",
+      "git_blob": "b18eb27c6a5046123c85d56936d14853c51a3b84",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/utils/CheckUtils.java": {
+      "sha256": "a6cbd24a84e489f221375f25dd94a91c761b56a836b43459e7dc1a41189ae3fc",
+      "git_blob": "fdf460b02364ea05fdcaf10ae0d01dc3a3d3a8d2",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/utils/Constants.java": {
+      "sha256": "8cdc0aa972541e4d464b4c95f1f652c1f408db67cdb65e50f9a3a00749cf98c6",
+      "git_blob": "8d5409fb6e519d77a8545317220431a9ce390f5d",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/utils/GeoFunction.java": {
+      "sha256": "2325f939ab95655116d79926b2d31c32062cff72c871661ed589a98ec858039a",
+      "git_blob": "507aa44887bdac99da4e0e22d01347ed7360a006",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/utils/HBaseHelper.java": {
+      "sha256": "8d08b4dfa70bd36988b410540af5d3c4faa8a1df23b0e3bf10c67e4ee35f3c5f",
+      "git_blob": "adb21798eeae265efad2e9b7b5b872728a3a86ab",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/utils/NumberUtil.java": {
+      "sha256": "0f588b799d80543069cbbf65784b6828fe9c84aea805c3027e29696f1ac05ad2",
+      "git_blob": "cf83421f4e58805ba2c2cd8e94102a3671917615",
+      "mode": "100644"
+    },
+    "src/main/java/com/just/ksim/urbancomputing/utils/WKTUtils.java": {
+      "sha256": "af1764a8fdc1dec5d6156182850914486e7d27e995bb8329a3df16ba3bf7b41f",
+      "git_blob": "ff8cfb5ad186972d5987818103a1f6bd503a17d4",
+      "mode": "100644"
+    },
+    "src/main/java/utils/CheckUtils.java": {
+      "sha256": "a93895c984e1c6e81524dbeb57bbce54215358f689ec7f5650fd9a9539a90475",
+      "git_blob": "e89269e3bf773f1b24bbc47240ca032651983186",
+      "mode": "100644"
+    },
+    "src/main/java/utils/Constants.java": {
+      "sha256": "d6a93e9217482ac50b3af5225454bd839fce53976a4c4da3763de1db2a892583",
+      "git_blob": "dd68476aa8c32f63d7809bc76d972e45e0906c8a",
+      "mode": "100644"
+    },
+    "src/main/java/utils/GeoFunction.java": {
+      "sha256": "dfcfe63704a3ddbf9db553131c91426dc7ec611116a00265ad78222e022b2d6f",
+      "git_blob": "3067c4eb8d131818c20b66716b7c55b9f8d11ed3",
+      "mode": "100644"
+    },
+    "src/main/java/utils/HBaseHelper.java": {
+      "sha256": "a574eb215ff4248cd16aa21255801b2a823ea37ca32ebe836039a3fbfe149161",
+      "git_blob": "27f5a8d1996f8939d432ac11bfa14efe6c472899",
+      "mode": "100644"
+    },
+    "src/main/java/utils/NumberUtil.java": {
+      "sha256": "6d4c372c9c02711cf4740805e62081fbbc449e9e4f4c806da004ffd903fc75e8",
+      "git_blob": "20f12d6bf20448db64ce152d91d78fe53227a932",
+      "mode": "100644"
+    },
+    "src/main/java/utils/PreprocessorUtils.java": {
+      "sha256": "d83b9f6a41490a05a212e89f11b90a791211c4576d42e17bedb90b6f661f0b77",
+      "git_blob": "46cb990b68e53ba3cc313876e9310d684c21e626",
+      "mode": "100644"
+    },
+    "src/main/java/utils/PutUtils.java": {
+      "sha256": "0af4390da79e7a2009f416631f66210a248ff47b10642a28fd7e484696c01486",
+      "git_blob": "100fb013d5229f3bdcfc075c31cb6fa732686d2b",
+      "mode": "100644"
+    },
+    "src/main/java/utils/WKTUtils.java": {
+      "sha256": "dda6d8eb29c9c0832d7a37b817c4c2933f29fbcd13db3392b43a6d802daa5054",
+      "git_blob": "8582768eeae444239aaaa38fb681d0c0368e2802",
+      "mode": "100644"
+    },
+    "src/main/proto/CountFilter.proto": {
+      "sha256": "7faadbc3d44b7cb5f6e8593a5dc0ff9b35a47c1cf2e769e77bd2a19022ad06de",
+      "git_blob": "bf4d9bf99c5801567d948a5490f209f2d0bc4737",
+      "mode": "100644"
+    },
+    "src/main/proto/CustomFilters.proto": {
+      "sha256": "763b622af4b8eb1dc0bf797fbf6672b9010d13b9a0d55df8f3dbbacba0a30bb0",
+      "git_blob": "2cc98b1990a7e736021eaad3e61cb245d9703fc8",
+      "mode": "100644"
+    },
+    "src/main/proto/PivotPointFilter.proto": {
+      "sha256": "9c419f1e6088b0d59dcdbd9461ad15b8b8cc5c4f5aeaf655d5ee58392c05cc0f",
+      "git_blob": "4d8e0cf12657b8c0c5ff371f78f7c458283576dc",
+      "mode": "100644"
+    },
+    "src/main/proto/RowCountService.proto": {
+      "sha256": "89769d475e6ad0088ca41d438f47b0cea18f117e98a9d138804d5e96c50eccf1",
+      "git_blob": "38a39e2eead0a36967db31653724bf79b0d4bbee",
+      "mode": "100644"
+    },
+    "src/main/proto/Similartity.proto": {
+      "sha256": "5648bf64774c62040609aa0914d701dca381d5894acba6158734774b7b156a09",
+      "git_blob": "793ebf591fabcec4c82dcdfddc252be9379169e0",
+      "mode": "100644"
+    },
+    "src/main/proto/knnServer.proto": {
+      "sha256": "58e97d596156ff497eb7831a2c0903df5278ced41ba17046b30cef939d35c8ed",
+      "git_blob": "01524b8f6711d93bec882007b5723ac3f7013d66",
+      "mode": "100644"
+    },
+    "src/main/proto/sum.proto": {
+      "sha256": "f481095a190f0e58ad39901697bd5b9e6f35ca890991949ecd757f8fd27db84b",
+      "git_blob": "4957602830b062080ee34637b5020db4c9326fe4",
+      "mode": "100644"
+    },
+    "src/main/resources/log4j.properties": {
+      "sha256": "9c8217fe4700a51d51f9d9bc94c96e6ca0d33c10763f468635b671c593400177",
+      "git_blob": "e9cfc25d1b91cf3577711ca7a7e7f9ac6ffcf386",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/preprocessing/LorryToSegments.scala": {
+      "sha256": "3c91ca4514e5005aa2f614f000074245d831510d9946779810cb83f51b617e00",
+      "git_blob": "1008693ab0d1bc438ed4748aa57916eab1e85b12",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/preprocessing/SegmentingLorry.scala": {
+      "sha256": "b8b44967416b3c70bdd243d91abffc7b962d7928069675c1feac0ad603236815",
+      "git_blob": "7a84a5a1451aa96992b836d165681d4324e7d984",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/preprocessing/SegmentingTDrive.scala": {
+      "sha256": "720fa26b9da2a087c4f093b2952a854ae7aa32cfb428c1dfa762719840189099",
+      "git_blob": "42cbb46a488d5b40ee9fb6ec5947145f7dc8fd20",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/preprocessing/TDriveToSegments.scala": {
+      "sha256": "280e06d0c09e7b1615b5b57fb537559fd33f7e067415ebe249cba2c9901e2f95",
+      "git_blob": "35caf5950904e79c90c193d904095be428c31cd8",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/BBoxToPoly.scala": {
+      "sha256": "380d6e19f6a1c48afcc017c996333caf7e36151272c61fa9ac57b8183bd62f35",
+      "git_blob": "676fb2ebcea4a705c66d206d7a12c9624feec1fe",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/GeRanges.scala": {
+      "sha256": "72b1a187c1628e392031b28eccd7b69678df107c77f13e20e6933a3edc2a80c3",
+      "git_blob": "b526cc1a59457480417d82f12b4e0a3a3b825817",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/KNNCountQuery.scala": {
+      "sha256": "95f874211cd9f737c5ae85aab1dd90d9580d540b72c5f85cf436394be6d0d234",
+      "git_blob": "4d6797e2c04044276223d6029ab4b6a81698bbb0",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/KNNQuery.scala": {
+      "sha256": "b14a6bbf85132c0a44681b6ec45dcbcb431cc5d14676e968757b2c6ed834b620",
+      "git_blob": "613e1838f489ae800a1131eb3065e51ee53412e3",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/QuadSimilarityQuery.scala": {
+      "sha256": "1364681961b3ad9b9c40aef2fb328d7b84e2a11c880aec87387ad3bf509e33c9",
+      "git_blob": "237aa4a1077c79f65a8d8352761d6de00ee4df0a",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/QueryTest.scala": {
+      "sha256": "4902a0941c43ab434eb744532ced444f9e1a892ad660fad9ffd7f6d37e0e7423",
+      "git_blob": "3fb7bec99433fc8998e966319a746938cd59a4b2",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/RangeQuery.scala": {
+      "sha256": "85139ecb1b734b4b47729bef51b343c014b4087061bdb7a05eef91c3e20a3709",
+      "git_blob": "37b57f70d849fb70244a219e515194442f66c8d0",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/RtreeQuery.scala": {
+      "sha256": "4f537274c7e0b9cb6944d795e830119b2486070cdf8b5d4e6221625aec9349af",
+      "git_blob": "53d6a079ef7549cbecd08375e12f98c440325038",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/SimilarityNoLFCount.scala": {
+      "sha256": "8d868a1361c9b6cb99aee7c7c18635e26fd5127dced41ebdf2c0ce2d1f7fd14c",
+      "git_blob": "773aaf58ceec6f0ea69ee1666b5eb18cf18feb9c",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/SimilarityQuery.scala": {
+      "sha256": "e7359dd4ac8c35ed760f30433e078faf5e12b3a9bf3d346b28703b80e5d08f39",
+      "git_blob": "cbafeaa2edd9ede6f1150214dd05778797f14b12",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/SimilarityQueryFiltering.scala": {
+      "sha256": "a4f04ebc9de20ff83a73358e5be369bf291415d31ee5b84d816928f21961dee0",
+      "git_blob": "43ba484ae8d03ca76f40a386cbb5c72b20224590",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/SimilarityQueryNoMemory.scala": {
+      "sha256": "9f5f41ec2fd99e3bec9ce592cc80178b684bbbc08f47385cadfd156a79744842",
+      "git_blob": "9e6b677ab9b6ab3c85a04d8983bd19c739004ba2",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/Test.scala": {
+      "sha256": "7702f88f9537229f7329d92e45e4cc5a3afd4d624376947566825ba6acbcaafb",
+      "git_blob": "7ff4a79f9a46599fd2c4013fc9efdadf76e6f7ce",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/TestRanges.scala": {
+      "sha256": "8f2e1d903da463d40647e1b8ac098e87fcb6da569c01f1c46cb3365f9666dded",
+      "git_blob": "ad226fe1e2ff80c8d3bb4847f4e6a0fc721d0fd8",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/TestSize.scala": {
+      "sha256": "08685bcb7a6e630de1c87a5c948f082104a26baff133bf13afc66d06aa686413",
+      "git_blob": "ccdfff8410cad14fd983f1b092fab14e36ea77f1",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/XZ2KNNCountQuery.scala": {
+      "sha256": "565d9ba9c0887e87413cdbc716f6689974ea85514a586012059a3dd6f4757649",
+      "git_blob": "9ef6d02043f23abfca39e378443242af92888852",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/query/XZ2SimilarityQuery.scala": {
+      "sha256": "3b8bc620693ecf0837cb8e95f2c38caf66cde633ab83863e059b4b62617ff624",
+      "git_blob": "a3c57ce4b95bddccba036b8c952acc027162e809",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/statistic/DistributionStatistic.scala": {
+      "sha256": "389c55e10b91608986470f9f09368d817576979e66ab04490f51f4fda7ed3205",
+      "git_blob": "caa9c57a1484614fa0962ae205760ceda3e8fd1c",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/statistic/FinalCount.scala": {
+      "sha256": "c07725f16223d03b5885226b5f0e2809737b07fc1774b7f0465a710d380b7ba3",
+      "git_blob": "981fbef76ba37ca107a9e00eaf8755f3ddd6f902",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/statistic/Selectivity.scala": {
+      "sha256": "fabc11741a31612936f4d0e863c723626726b75f493266d9f8cc2bc3faf26a29",
+      "git_blob": "f78868e72e3a39f5835b35ed2a09ffa9cf991b08",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/statistic/StorageSizeOfRowKey.scala": {
+      "sha256": "7638baf1a89963efbba0643f909464177451c13006c8047a48aa6eddab4de24f",
+      "git_blob": "ec9b185fb58bd5950dae1d789a5b3a9a83d341ba",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/storing/SegmentingTDrive.scala": {
+      "sha256": "5b5f8c16d369e148296a3b686f37c4acd905dac95ab3dba2ae727e326866d2e4",
+      "git_blob": "f300137a7e20c8f47600b23b3ef76810c2786415",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/storing/StoringQuadTDriveToHBase.scala": {
+      "sha256": "a8be2081054ec0363e4552ee4194b7b7ee80f89aacd9b452778f6ea7c4359271",
+      "git_blob": "b6bdf30b3865521b6afe804dbe3c6dfdf9044cf9",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/experiments/storing/StoringTDriveToHBase.scala": {
+      "sha256": "487081071f3adcb5d689d5ab8ad61efc7c3d08d535ba1b907686cb3352b0565d",
+      "git_blob": "a7db2a0b068d8992f31523ea82b30f3fa5653b52",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/index/ElementKNN.scala": {
+      "sha256": "358e653a969bbb7bebe38baafa8bf4b33601ee417fb61f005a19019dd6b79508",
+      "git_blob": "e89d775f5220f9d7b7052562df333cb0d7fdaafd",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/index/ReadTrajectory.scala": {
+      "sha256": "a613d93a234988f9b505b503b04b14bcd2bc91897cd5f599d60de3d8149270e6",
+      "git_blob": "1b817b34945e2978ab9127ff27a757b814f2b9cb",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/index/TestRead.scala": {
+      "sha256": "daa662c5e30b7489a3d09f2b1ada53e63a1f6a03b335a485ddab72856ba8c303",
+      "git_blob": "1a263ed369e3d62e0bf42dcf2286d2e7f1ffed5d",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/index/XZSFC.scala": {
+      "sha256": "3bd6072aae31dce6c9b44cde9f1be49e26ff666dec38f8f1483c5869d2ad1ed2",
+      "git_blob": "b541d2c7910de57d8124591967390c0eaaa66099",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/index/XZStarSFC.scala": {
+      "sha256": "c2efb7b06b2fcae49bfcdf150233012feb3ad9137342e05544aed5251e9eeb4b",
+      "git_blob": "632a51d02b5650afa47e3acc32e7266a6374c0e8",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/urbancomputing/experiments/KNNQuery.scala": {
+      "sha256": "0ace4e73825e27109997c58e832f60fd3d1e123cb2fc2e98f1bb205e5fd57e8a",
+      "git_blob": "a44218aecee9aa790730796e5ec6f614f276a2f2",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/urbancomputing/index/EnlargedElement.scala": {
+      "sha256": "7c16abdb70feeb91639c9a9f182737aa9c99c30d265ab255ec6ddfef76e9ab43",
+      "git_blob": "c66d8de2a2a9d5bb3a3fa69b45e90f646f26c013",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/urbancomputing/index/IndexSpace.scala": {
+      "sha256": "70c0a3b4fd3e6115b9ec863e14b1406e593ecc11aba39e593caf3c25f295fe65",
+      "git_blob": "28b293900dd7d4928a90f69c3bdf74622075e695",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/urbancomputing/index/XZSFC.scala": {
+      "sha256": "1d89af71c825aeeddae5efc967509e8697d5c7a4d889b065a9fb13603a691a85",
+      "git_blob": "1db3056fccd6abe5a2de575012f2418706380cbf",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/urbancomputing/index/XZStarSFC.scala": {
+      "sha256": "9369e4f4d76b2e12e582bb0c1f44b074f38f14933197257f92ba6e23f438ae39",
+      "git_blob": "eb98c476ce010e0e5ee7dc39245531c1bd1258c1",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/urbancomputing/utils/ByteArrays.scala": {
+      "sha256": "ef2f07a106d901c1ea486c97a20fe1b507767b991b976050b6b705642654c110",
+      "git_blob": "0fe2e90cf174ca488225a4136e580158ad29e853",
+      "mode": "100644"
+    },
+    "src/main/scala/com/just/ksim/utils/ByteArrays.scala": {
+      "sha256": "978a32804a27ee84d46a423db1ecd641727ffa719c1c239aed36c73a1de52d66",
+      "git_blob": "010b613011417c19901802e78c7b68f9c77e2122",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/grpc-java/coprocessor/generated/KnnServiceGrpc.java": {
+      "sha256": "d1f87f07805bcdc4b2e7f0c98a455f23c6ea69d98dc594aa0e4d029854c305b4",
+      "git_blob": "1b2a3f9fe830f1575e2b54e4f4dfad91f778a238",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/grpc-java/coprocessor/generated/RowCountServiceGrpc.java": {
+      "sha256": "2504f88e12cb20fc48e78403fa91f823e14d56fdc9ed332b897730b7e5823381",
+      "git_blob": "a9b5d9efb7c1b94ccb9f92b86bf92fe8ecd41897",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/java/coprocessor/generated/KNNServer.java": {
+      "sha256": "87a49285d7fb8f41b3a474d558a56bff5fc9b14435d171faa96ec1abfdd05c01",
+      "git_blob": "4aa632955c1a0739b91129ba448dc885a663056f",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/java/coprocessor/generated/RowCounterProtos.java": {
+      "sha256": "d757eb08de9f1527478f9bbfbefc6eca5c965c4eb4d95c9dd92a49c23567e161",
+      "git_blob": "71feb4aa5bcbe4c39b11de6190ca61859e47ada4",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/java/filters/generated/CountFilter.java": {
+      "sha256": "9f1d277e6e0e5de99b2dd4f25e68defaf53238f6f5332a04878d8392f59e5afa",
+      "git_blob": "5cc24b181ba062711aa25a8a14759b7e6c42e634",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/java/filters/generated/FilterProtos.java": {
+      "sha256": "0fdd50a4df5a4ee86f56a30ff56788dd2e9a87b81339a97c829f591215c160d5",
+      "git_blob": "47437c7d82719c83e06c5c34551556504d63bc25",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/java/filters/generated/PivotPointFilter.java": {
+      "sha256": "f723a966c6600edda011bc731e085095d1afead2f11cf3e409242e214d40d60b",
+      "git_blob": "c4b88b7ded4a244391c419f0f372e43e9d804765",
+      "mode": "100644"
+    },
+    "target/generated-sources/protobuf/java/filters/generated/Similarity.java": {
+      "sha256": "6a88c23493b3a8c37d17367d58c68c5d9d927dd3754f329027d59f087673f81a",
+      "git_blob": "f62bfe4068ffbf6548f3554c2a3f31a1407cf218",
+      "mode": "100644"
+    }
+  },
+  "omitted": [
+    {
+      "path": ".idea/.gitignore",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/.name",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/codeStyles/Project.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/codeStyles/codeStyleConfig.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/compiler.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/inspectionProfiles/Project_Default.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/jarRepositories.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/libraries/scala_sdk_2_11_7.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/misc.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/sbt.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/scala_compiler.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/smartfox_info.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/uiDesigner.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": ".idea/vcs.xml",
+      "reason": "editor/cache files"
+    },
+    {
+      "path": "QQ\u622a\u56fe20210703151302.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive/1/part-00000",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive/1/part-00001",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive/1/part-00002",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive/1/part-00003",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive/1/part-00004",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive/1/part-00005",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/tdrive_q/part-00000",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "SupplementaryMaterial/trass.jar",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "appendix.pdf",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "disk-sim.jar",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "hs_err_pid41672.log",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/QQ\u622a\u56fe20210703151302.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/appendix.pdf",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/image-20210703142708418.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/image-20210703151530511.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/image-20210703151622144.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/image-20210703151635261.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "other_measures.pdf",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "replay_pid41672.log",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/Distribution and Selectivity",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/datasize",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/dft.txt",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/didi",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/disks.txt",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/dita.txt",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/dp-features",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/just",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/local/cmd",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/resolutions",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/response",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/shards",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/spark-submit-all.exper",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/spark-submit.exper",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/storing.txt",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/withourmemorypruning",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/xz_ordering",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "src/main/resources/\u914d\u7f6e\u7b49\u547d\u4ee4",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    }
+  ],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

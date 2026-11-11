@@ -1,0 +1,40 @@
+{
+  "format": "historical settings extract, not a runnable CLI job",
+  "source_task": "20261011-1804-current-ablation-refresh",
+  "settings": {
+    "job": {
+      "id": "levels.Porto.hausdorff.s2000",
+      "kind": "levels",
+      "city": "Porto",
+      "metric": "hausdorff",
+      "seed": 2000,
+      "asset": "<HOST_PATH>/final_asset.json",
+      "asset_sha256": "8f257b6450001805fc3e73aec130e457332701e680687a9100cd2d380bad38b3",
+      "min_free_mib": 8000
+    },
+    "retrieval": {
+      "distance": "hausdorff",
+      "dtw_seed": "weighted",
+      "dtw_pool": 128,
+      "dfd_initial": "light",
+      "dtw_routing": "fixed",
+      "dtw_execution": "optimized",
+      "large_k": false,
+      "hausdorff_target": "polyline",
+      "full_large_k": false,
+      "query_profile": "throughput",
+      "single_query_engine": "specialized",
+      "query_batch": null,
+      "hausdorff_fields": "default",
+      "hausdorff_execution": "auto",
+      "precision": "fp32",
+      "parameter_mode": "manual",
+      "top_k_profiles": [],
+      "initial_k": null,
+      "initial_pool": null
+    },
+    "queries": 1000,
+    "database": 100000,
+    "timing_scope": "resident complete search; query/database encoding and index excluded"
+  }
+}

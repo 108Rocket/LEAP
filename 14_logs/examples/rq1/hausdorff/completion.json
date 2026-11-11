@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "experiment": "size",
+  "metric": "hausdorff",
+  "seed": 2000,
+  "samples": 240,
+  "summary_sha256": "bd9a40753c7cf97f0d2bc79f3d581985e9184b9195cbf786cbf43ba6d8093852"
+}

@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leap-trajectory"
+version = "1.0.0"
+description = "Learned Probes for Exact Trajectory Similarity Search"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Xin Dong", email = "dongxin@fzu.edu.cn"},
+  {name = "Yusen Liu", email = "yusen.liu@uts.edu.au"},
+  {name = "Hua Lu", email = "luhua@cs.aau.dk"},
+  {name = "Huan Li", email = "lihuan.cs@zju.edu.cn"},
+  {name = "Dalin Zhang", email = "zhangdalin@hdu.edu.cn"},
+  {name = "Zhichen Lai", email = "lzc@fzu.edu.cn"},
+  {name = "Xing Chen", email = "chenxing@fzu.edu.cn"},
+]
+dependencies = [
+  "numpy>=1.24,<3",
+  "pandas>=2.2,<3",
+  "torch>=2.5,<2.6",
+  "triton==3.1.0; sys_platform == 'linux'",
+  "numba>=0.60,<0.68",
+    "gdown==6.5.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.urls]
+Repository = "https://github.com/DongXinfzu/LEAP"
+Documentation = "https://github.com/DongXinfzu/LEAP/blob/main/11_docs/quick_start.md"
+
+[project.scripts]
+leap = "leap.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "12_licenses/NOTICE", "11_docs/AUTHORS.md", "THIRD_PARTY_NOTICES.md"]
+
+[tool.setuptools.packages.find]
+where = ["01_LEAP"]
+include = ["leap*"]
+
+[tool.setuptools.package-data]
+leap = ["assets/*.json", "reproduction/example.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["08_tests/tests"]
+pythonpath = ["01_LEAP", "07_external_models", "08_tests"]

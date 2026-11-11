@@ -1,0 +1,79 @@
+{
+  "ConvTraj": {
+    "repository": "https://github.com/Proudc/ConvTraj.git",
+    "commit": "dd4f1f1145be57df3e730791ab2b1933963c7e18",
+    "directory": "learned/ConvTraj",
+    "bundled": true,
+    "optional": false
+  },
+  "TrajCL": {
+    "repository": "https://github.com/changyanchuan/TrajCL.git",
+    "commit": "fbc98f58c8b46135bf2507cd83c9a1e96ede0ff3",
+    "directory": "learned/TrajCL",
+    "bundled": true,
+    "optional": false
+  },
+  "MovSemCL": {
+    "repository": "https://github.com/ryanlaics/MovSemCL.git",
+    "commit": "455da9faa3ded43623ce6e72acbe6b51592b4a48",
+    "directory": "learned/MovSemCL",
+    "bundled": true,
+    "optional": false
+  },
+  "SIMformer": {
+    "repository": "https://github.com/SUSTC-ChuangYANG/SIMformer.git",
+    "commit": "ea3457d78390b06f5802e73931dec839d18172f8",
+    "directory": "learned/SIMformer",
+    "bundled": true,
+    "optional": false
+  },
+  "TSMini": {
+    "repository": "https://github.com/changyanchuan/TSMini.git",
+    "commit": "1fac8436836fc5f03414c9d4fdcec8d2d5a3c4be",
+    "directory": "learned/TSMini",
+    "bundled": true,
+    "optional": false
+  },
+  "TrajAgg": {
+    "repository": "https://github.com/zhx66741/TrajAgg.git",
+    "commit": "f8e7f55391048459f25140265ed31ab8a3fe703b",
+    "directory": "learned/TrajAgg",
+    "bundled": true,
+    "optional": false
+  },
+  "LB-TrajRep": {
+    "repository": "https://github.com/LIWEIDENG0830/LB-TrajRep.git",
+    "commit": "adda27cf801ce3be87dc220490b0deec01231972",
+    "directory": "bounds/LB-TrajRep",
+    "bundled": true,
+    "optional": false
+  },
+  "TraSS": {
+    "repository": "https://github.com/huajunge/k-sim.git",
+    "commit": "9bbc219ccd7fd3564eaee9cb3051c45144a169ed",
+    "directory": "exact/TraSS",
+    "bundled": true,
+    "optional": false
+  },
+  "TrajGAT": {
+    "repository": "https://github.com/HuHaonan-CHN/TrajGAT.git",
+    "commit": "8b99df9d5da93f961f688940d8d9098cc0dfc19a",
+    "directory": "optional/TrajGAT",
+    "bundled": false,
+    "optional": true
+  },
+  "DITA": {
+    "repository": "https://github.com/TsinghuaDatabaseGroup/DITA.git",
+    "commit": "3838c0c645bb5411b3906ef66289b3764ab0049c",
+    "directory": "optional/DITA",
+    "bundled": false,
+    "optional": true
+  },
+  "RePo": {
+    "repository": "https://github.com/Alfred4c/RePo.git",
+    "commit": "4aff4bcdc57ebb2f52fca6bfb7cf64e361a17c2e",
+    "directory": "optional/RePo",
+    "bundled": false,
+    "optional": true
+  }
+}

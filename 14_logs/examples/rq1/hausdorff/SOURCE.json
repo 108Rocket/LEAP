@@ -1,0 +1,43 @@
+{
+  "historical_example": true,
+  "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+  "scope": "SDD Porto, seed2000, Ranking/Full/LB at k=20. Historical five timing repeats.",
+  "redactions": "Machine-specific absolute path strings and GPU UUID strings only. Numeric values are unchanged.",
+  "records": [
+    {
+      "file": "samples.json",
+      "source_file": "SAMPLES.json",
+      "source_sha256": "1f69476d4388c490b4ee66ff786e00b2319dfcc0edbe15646585c4112b78eb19",
+      "export_sha256": "e1ef1bbf61552c01ac6b37bae420a4a7ec72b62cf028bd5f409aef2254dfca60",
+      "selection": "all modes and all five rounds at n=1597579"
+    },
+    {
+      "file": "full.accuracy.json",
+      "source_file": "1597579.k20.full.ACCURACY.json",
+      "source_sha256": "ade107c5b530c13897a8fec7344363c41d3f4a2c2fdca2c6a9857950d9f53651",
+      "export_sha256": "ade107c5b530c13897a8fec7344363c41d3f4a2c2fdca2c6a9857950d9f53651",
+      "selection": "complete file"
+    },
+    {
+      "file": "ranking.accuracy.json",
+      "source_file": "1597579.k20.ranking.ACCURACY.json",
+      "source_sha256": "7b2ce041d328310907228f0fc0e67ad5758f5842e84713a3c5944ed5fbde711d",
+      "export_sha256": "7b2ce041d328310907228f0fc0e67ad5758f5842e84713a3c5944ed5fbde711d",
+      "selection": "complete file"
+    },
+    {
+      "file": "LB.accuracy.json",
+      "source_file": "1597579.k20.LB.ACCURACY.json",
+      "source_sha256": "65af024324ba21cee0806ad1e5596f026028044e973ca626829d12adc8644b3f",
+      "export_sha256": "65af024324ba21cee0806ad1e5596f026028044e973ca626829d12adc8644b3f",
+      "selection": "complete file"
+    },
+    {
+      "file": "completion.json",
+      "source_file": "DONE.json",
+      "source_sha256": "c6797741c451c4f160222f582be4c66d63438f1b11509b938db9156b324ec506",
+      "export_sha256": "c6797741c451c4f160222f582be4c66d63438f1b11509b938db9156b324ec506",
+      "selection": "complete file"
+    }
+  ]
+}

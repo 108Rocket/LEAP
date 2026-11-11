@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "role": "Historical preparation routines with portable input/output configuration",
+  "files": [
+    {
+      "file": "prepare_100k.py",
+      "source": "20260911-2017-submission-evidence/source.tar.gz:prepare_data.py",
+      "sha256": "c2fcde8654998fb78ea4f5d1de674eb8375de13e2c4ed1f50c668529dd9e0144",
+      "original_sha256": "951e12cc4893d7d35bbe41a09084c65ed38a7f7b1ed47e4d3306d221ff190624",
+      "adaptation": "Explicit config-relative paths and local imports; no dataset selection or distance formula changes"
+    },
+    {
+      "file": "prepare_sdd.py",
+      "source": "20260917-1726-sdd-dataset-eval/prepare_sdd.py",
+      "sha256": "d9d3964e59f7e3febcdc19c83ff1e4b46b3480123b20629f3ff826b780f9e25d",
+      "original_sha256": "fab67f5bbdcf4542bc8ebb697e50c67311dc39cb3caf9efaba96fdbe383f2cd0",
+      "adaptation": "Explicit config-relative paths and local imports; no dataset selection or distance formula changes"
+    },
+    {
+      "file": "audit_cities.py",
+      "source": "20260918-1416-germany-hausdorff-100k-eval/audit_cities.py",
+      "sha256": "d80539f2d162773458299e1cb49b9c5f14e4204a06327b1e4f5b6251ca4b3779",
+      "original_sha256": "7ee404875040474f7d6c4279b23242c420a293d6a9d1b40fdad4d1369d840e01",
+      "adaptation": "Explicit config-relative paths and local imports; no dataset selection or distance formula changes"
+    },
+    {
+      "file": "prepare_city_training.py",
+      "source": "20260918-1416-germany-hausdorff-100k-eval/prepare_city_training.py",
+      "sha256": "019e6a14806df534afe2013526ef499bb9686d58aa75a5d43030cd98844c4338",
+      "original_sha256": "2832edb63bd81d48ec7964946e61064f27eba5ca30ddb7dcf8013b084754c379",
+      "adaptation": "Explicit config-relative paths and local imports; no dataset selection or distance formula changes"
+    }
+  ],
+  "helpers": [
+    {
+      "file": "paths.py",
+      "sha256": "e146e3b7600cbb611fbc955b9a4826d8a8edb4b2bcd7c8d147a92a8869fc3a45"
+    }
+  ]
+}

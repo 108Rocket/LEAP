@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "job": {
+    "id": "SDD_Porto.hausdorff.s2000",
+    "city": "Porto",
+    "seed": 2000
+  },
+  "asset": "<HOST_PATH>/final_asset.json",
+  "asset_sha256": "5462200216abb3f8f47855c4eee0267f1ce05f689b0c1a7ad9d38f1fba7f0312",
+  "seconds": 430.5504963444546,
+  "training_definition": "pointset",
+  "time": 1791362082.927118
+}

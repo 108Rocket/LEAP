@@ -1,0 +1,8 @@
+{
+  "distance": "hausdorff",
+  "hausdorff_target": "pointset",
+  "hausdorff_fields": "near_far",
+  "hausdorff_execution": "auto",
+  "query_profile": "throughput",
+  "query_batch": 512
+}

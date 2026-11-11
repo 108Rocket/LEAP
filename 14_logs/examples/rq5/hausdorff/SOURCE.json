@@ -1,0 +1,29 @@
+{
+  "historical_example": true,
+  "source_task": "20261030-1110-large-k-tree-adaptation/attempt9",
+  "scope": "SDD Porto result-count adaptation at k=50, seed2000. Complete legacy/tree comparison with five repeats.",
+  "redactions": "Machine-specific absolute path strings and GPU UUID strings only. Numeric values are unchanged.",
+  "records": [
+    {
+      "file": "result.json",
+      "source_file": "hausdorff.k50.RESULT.json",
+      "source_sha256": "cd91314698e345f6c602a138eaff2bca0b00854cc9c595cf4333078cbf325bac",
+      "export_sha256": "cd91314698e345f6c602a138eaff2bca0b00854cc9c595cf4333078cbf325bac",
+      "selection": "complete file"
+    },
+    {
+      "file": "parity.json",
+      "source_file": "hausdorff.k50.PARITY.json",
+      "source_sha256": "5a4ef07646c817868369ed6128ee9d1f591bda65af512b2aab9085a544f4c191",
+      "export_sha256": "5a4ef07646c817868369ed6128ee9d1f591bda65af512b2aab9085a544f4c191",
+      "selection": "complete file"
+    },
+    {
+      "file": "completion.json",
+      "source_file": "hausdorff.FINISHED.json",
+      "source_sha256": "d7813eda6fc9d6f7824d414b38d685d11bc7d1112e6da4443baf890c7774b6e2",
+      "export_sha256": "d7813eda6fc9d6f7824d414b38d685d11bc7d1112e6da4443baf890c7774b6e2",
+      "selection": "complete file"
+    }
+  ]
+}

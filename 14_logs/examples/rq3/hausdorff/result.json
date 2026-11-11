@@ -1,0 +1,123 @@
+{
+  "success": true,
+  "job": {
+    "id": "levels.Porto.hausdorff.s2000",
+    "kind": "levels",
+    "city": "Porto",
+    "metric": "hausdorff",
+    "seed": 2000,
+    "asset": "<HOST_PATH>/final_asset.json",
+    "asset_sha256": "8f257b6450001805fc3e73aec130e457332701e680687a9100cd2d380bad38b3",
+    "min_free_mib": 8000
+  },
+  "config": {
+    "distance": "hausdorff",
+    "dtw_seed": "weighted",
+    "dtw_pool": 128,
+    "dfd_initial": "light",
+    "dtw_routing": "fixed",
+    "dtw_execution": "optimized",
+    "large_k": false,
+    "hausdorff_target": "polyline",
+    "full_large_k": false,
+    "query_profile": "throughput",
+    "single_query_engine": "specialized",
+    "query_batch": null,
+    "hausdorff_fields": "default",
+    "hausdorff_execution": "auto",
+    "precision": "fp32",
+    "parameter_mode": "manual",
+    "top_k_profiles": [],
+    "initial_k": null,
+    "initial_pool": null
+  },
+  "receipt": {
+    "complete": true,
+    "job": {
+      "id": "100K_Porto.hausdorff.s2000",
+      "workload": "100K_Porto.hausdorff",
+      "seed": 2000
+    },
+    "asset": "<HOST_PATH>/final_asset.json",
+    "asset_sha256": "8f257b6450001805fc3e73aec130e457332701e680687a9100cd2d380bad38b3",
+    "time": 1791181910.3983939
+  },
+  "truth": {
+    "path": "<HOST_PATH>/truth_fp32.npy",
+    "sha256": "936f6d93a527077fa070560d8816f3d1a2c43197cb812565ffd56baa149fc89a",
+    "reference": "stored exhaustive FP32 external-query reference"
+  },
+  "queries": 1000,
+  "database": 100000,
+  "arms": {
+    "full": {
+      "scorer_calls": 84131,
+      "full_hr20": 1.0,
+      "full_miss20": 0,
+      "timings_ms": [
+        6.023084744811058,
+        9.64836310595274,
+        6.98030274361372
+      ],
+      "range_nodes": 71026,
+      "individual_checks": 811252,
+      "range_candidates": 34131,
+      "coverage_percent": 98.42,
+      "mean_ms": 7.550583531459172
+    },
+    "no_gef": {
+      "scorer_calls": 84131,
+      "full_hr20": 1.0,
+      "full_miss20": 0,
+      "timings_ms": [
+        19.520017318427563,
+        19.200654700398445,
+        19.853861071169376
+      ],
+      "range_nodes": 4095000,
+      "individual_checks": 100000000,
+      "range_candidates": 34131,
+      "coverage_percent": 98.42,
+      "mean_ms": 19.524844363331795
+    },
+    "no_tbf": {
+      "scorer_calls": 861252,
+      "full_hr20": 1.0,
+      "full_miss20": 0,
+      "timings_ms": [
+        13.960935175418854,
+        14.610550366342068,
+        15.655859373509884
+      ],
+      "range_nodes": 71026,
+      "individual_checks": 811252,
+      "range_candidates": 811252,
+      "coverage_percent": 98.42,
+      "mean_ms": 14.742448305090269
+    },
+    "no_ranking": {
+      "scorer_calls": 42955882,
+      "full_hr20": 1.0,
+      "full_miss20": 0,
+      "timings_ms": [
+        1188.7039709836245,
+        1190.0821728631854,
+        1189.6662851795554
+      ],
+      "range_nodes": 2561064,
+      "individual_checks": 58279346,
+      "range_candidates": 42905882,
+      "coverage_percent": 0.025,
+      "mean_ms": 1189.4841430087884
+    }
+  },
+  "fp64_pair_audit": {
+    "pairs": 32,
+    "max_absolute_error": 1.5514771867231048e-07,
+    "geometry": "FP64 recomputation of the identical FP32 normalized inputs",
+    "passed": true
+  },
+  "full_arm_unmodified": true,
+  "all_arms_equal_native_ordered_output": true,
+  "timing_scope": "resident complete search; query/database encoding and index excluded"
+}

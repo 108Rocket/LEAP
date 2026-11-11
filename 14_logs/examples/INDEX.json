@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "rq1/hausdorff",
+    "scope": "SDD Porto, seed2000, Ranking/Full/LB at k=20. Historical five timing repeats.",
+    "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+    "files": 5
+  },
+  {
+    "directory": "rq4/hausdorff",
+    "scope": "Database scaling endpoints, seed2000. All rounds at 100K and 1597579 retained; not selected by speed.",
+    "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+    "files": 6
+  },
+  {
+    "directory": "rq2/hausdorff",
+    "scope": "Same-platform GPU exhaustive scan versus Full, seed2000. Historical five repeats.",
+    "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+    "files": 4
+  },
+  {
+    "directory": "rq3/hausdorff",
+    "scope": "Historical 100K Porto level ablation, seed2000. Original ablation timings, not newly retimed Full.",
+    "source_task": "20261011-1804-current-ablation-refresh",
+    "files": 3
+  },
+  {
+    "directory": "rq5/hausdorff",
+    "scope": "SDD Porto result-count adaptation at k=50, seed2000. Complete legacy/tree comparison with five repeats.",
+    "source_task": "20261030-1110-large-k-tree-adaptation/attempt9",
+    "files": 3
+  },
+  {
+    "directory": "training/hausdorff",
+    "scope": "Actual SDD Porto seed2000 training history and phase configuration, matched to the shipped checkpoint.",
+    "source_task": "20261007-1555-sdd-pointset-hd-retrain",
+    "files": 6
+  }
+]

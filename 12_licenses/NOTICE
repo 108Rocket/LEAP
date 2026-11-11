@@ -1,0 +1,24 @@
+LEAP 1.0
+Copyright 2026 Xin Dong
+
+ORCID: https://orcid.org/0009-0009-4889-4449
+
+Learned probes for exact trajectory similarity search.
+
+The Apache License 2.0 applies only to original LEAP source code,
+documentation, configuration, and compatibility infrastructure unless a file
+or directory states otherwise.
+
+It does not relicense third-party source snapshots, datasets, pretrained
+weights, checkpoints, caches, map assets, or other externally supplied
+artifacts. Those materials remain subject to their original copyright and
+license terms. See THIRD_PARTY_NOTICES.md.
+
+Original LEAP implementation and experiment scripts by Xin Dong.
+See 11_docs/AUTHORS.md for the full paper author list and contributions.
+
+We gratefully acknowledge Prof. Zhichen Lai for evaluating the proposed
+innovations and providing early-stage research guidance.
+
+We gratefully acknowledge TrajCL and MovSemCL for the codebase and datasets on
+which this research builds.

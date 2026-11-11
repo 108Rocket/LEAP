@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "model": "ConvTraj",
+  "repository": "https://github.com/Proudc/ConvTraj.git",
+  "commit": "dd4f1f1145be57df3e730791ab2b1933963c7e18",
+  "git_tree": "15e082298a48b4ea98b5ba50af9c5ad6fdc91a77",
+  "source_directory": "upstream",
+  "files": {
+    "README.md": {
+      "sha256": "d2b162d1fa72517dd2a0b0c0a970bdec60225b9414fc8e0a34af1f5dc10d1bea",
+      "git_blob": "3b0e13fc7451b0c487818616b11d7ab216c4f35c",
+      "mode": "100644"
+    },
+    "config/new_config.py": {
+      "sha256": "9a47d7c03b4aa4a58c130946d093819a40660206a2b65784b88d75dc27d5a47d",
+      "git_blob": "47567afe0901423e3e7f5d1ee492869af65f9a49",
+      "mode": "100644"
+    },
+    "distance/distance_compution.py": {
+      "sha256": "cbee03a904f7ce1afab1b5aaa5a37a491abcc2278e3f5e96fa0a62af9ecd25a5",
+      "git_blob": "e7608aff1d13a12d6487f4ae722c1b2ffe272462",
+      "mode": "100644"
+    },
+    "distance/dtw.py": {
+      "sha256": "a7afdb2b7dcf14a3c64941fdb1c74ab275ad3a2c73eec6fc437734e6b0407e73",
+      "git_blob": "49873c92e39903fc2190433fc977359d72c96e91",
+      "mode": "100644"
+    },
+    "distance/edr.py": {
+      "sha256": "7ba633cb92f518ae018ef081bd072bfc736cb593c8413026b5444b696f28c3bb",
+      "git_blob": "1e6ead3c82fcfad45f19912f4ac164d0cde8eaa9",
+      "mode": "100644"
+    },
+    "distance/erp.py": {
+      "sha256": "ae9d6da0555b9dfa3d6810b1e4a60a5e58f165004065d3afe38e8baac3294704",
+      "git_blob": "cab4a3c1fad5421c09dc45981c37040b855b6bc0",
+      "mode": "100644"
+    },
+    "distance/frechet.py": {
+      "sha256": "ce686cc5f62f09ff16c660396fd9c8500e308560638b503252daf9dda789beb2",
+      "git_blob": "7d58c0f9dd42e4a8c00c138c72561da65878a27a",
+      "mode": "100644"
+    },
+    "distance/haus.py": {
+      "sha256": "038e6e88949e149f1a94849fb42510cd9b27efabe5cb7a302b93eef4f3e45df4",
+      "git_blob": "0adda67c6f77511b759d68f404c4e5c1852d9868",
+      "mode": "100644"
+    },
+    "distance/traj_dist.py": {
+      "sha256": "13bceab02aaf4cbdc829c69b1ecf2759abab22d0b1ec56b1003c33846f18c936",
+      "git_blob": "c23c8b046494f05c74c6b374caff6e05f49e067c",
+      "mode": "100644"
+    },
+    "loss/triplet.py": {
+      "sha256": "aad7d00eae68bb1b5b2e7433de82fab54f01aff776c4833807c37e07fc8cfecf",
+      "git_blob": "a5508b9868da1ac8da01564122d2147189cc6a0e",
+      "mode": "100644"
+    },
+    "mynn/Traj_KNN.py": {
+      "sha256": "8b6c88d0f94265ea15c603a70d9a483ac9107921924581ce82824f6b08e1a64c",
+      "git_blob": "e509991a7a21e28fe57f3bdf2af121d4fe9d686e",
+      "mode": "100644"
+    },
+    "mynn/shortcut.py": {
+      "sha256": "9a7b3750011809b8a0cd5d051bc2e1a14fcfb3d1e1b53609e44cc570e5992441",
+      "git_blob": "1abd5709f6be8af05af46bcf6d9d43840f78272d",
+      "mode": "100644"
+    },
+    "mynn/simplest_cnn.py": {
+      "sha256": "5bd20e70b6b454dfc2b9ac6035d67e721bab53b6b29db758a3e5ae52b5aa415d",
+      "git_blob": "42b3c80521cd5ed870baa09892e858cb771c74db",
+      "mode": "100644"
+    },
+    "mynn/transformer.py": {
+      "sha256": "f5fb9794483d6f995a2ba4712072f8e438fb793a805d6da07e415bd334e835c5",
+      "git_blob": "9bdd57bad2cb74dcdba5e0756fb5fe87b84f490c",
+      "mode": "100644"
+    },
+    "processing.py": {
+      "sha256": "93035d0d730a7846ddca5c0c47b428cc3ce347b3652c06737b8d84c86d4504f4",
+      "git_blob": "dc199704d883ba34d8ac7060d9b10897e03fc100",
+      "mode": "100644"
+    },
+    "processing.sh": {
+      "sha256": "c6711d784dc41a286c683db0b979a0eedd1ebff3b4611a933d6e14774bc7cf99",
+      "git_blob": "d64d499e14206806d35100e02b26311e5a1b663b",
+      "mode": "100644"
+    },
+    "start_main.sh": {
+      "sha256": "832d85503cdcd1653d543fcb0973f352e1bfee8f088ecf325038359583b00f13",
+      "git_blob": "89dd824ed635d5b013efa1820ba8c982e0169452",
+      "mode": "100644"
+    },
+    "tools/feature_distance.py": {
+      "sha256": "9c628e618ba958e8da18848dabf2449851159892a8a0eedae1a6b458d249dbfc",
+      "git_blob": "c144d842b7a66d22709321744745b012adf152e3",
+      "mode": "100644"
+    },
+    "tools/function.py": {
+      "sha256": "ed6f6c1412241f76941203645c0dec01e459fe81e5469afe8b80540070dc3f21",
+      "git_blob": "3a6f2db718d75c1162d75f2b28c099bd890265b1",
+      "mode": "100644"
+    },
+    "tools/grid.py": {
+      "sha256": "2cdc658ab2cc2928d238827f13ed78ea8df2f8a2a45575f13e678658414bdd0c",
+      "git_blob": "ec41a18bff8e573f788a534c3b921b1a6259e3d3",
+      "mode": "100644"
+    },
+    "tools/pre_rep.py": {
+      "sha256": "865d95fc101b7403d895ab9dd4b85797c6646dd84efac122012f402ff3cfdf34",
+      "git_blob": "a6febc930901df9d486ba4cf87f2ba1f7b550bc3",
+      "mode": "100644"
+    },
+    "tools/sampling_methods.py": {
+      "sha256": "87aa62ed5ae8fdd08f196fb4676ce536e3eb23aa87f4c805f109e8532c028c4a",
+      "git_blob": "b40a928963a8a302e2d1418e25a4783c0211ce11",
+      "mode": "100644"
+    },
+    "tools/test_methods.py": {
+      "sha256": "941a23f58906ecfeafd9e84348eaafb90c5b6308c4089558d871f3a77180ac84",
+      "git_blob": "7e7d5ed98a64d51f5826cebdacd3f32c0aa72e8f",
+      "mode": "100644"
+    },
+    "tools/torch_feature_distance.py": {
+      "sha256": "009d6f2cf1d31100b023da121ac655e749923ebda2696932cd9bebb1b9f0b4be",
+      "git_blob": "489f98bda83fdf4b8cf21ff7319dbcbabcfc594e",
+      "mode": "100644"
+    },
+    "train.py": {
+      "sha256": "e3970b5c0528334397e1352d4facd71fdf4f7ece74dcd6e54f8bd6ef2026d81a",
+      "git_blob": "ab93e80eecb81e64c426e059a034d6b21edb7501",
+      "mode": "100644"
+    }
+  },
+  "omitted": [],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

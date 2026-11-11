@@ -1,0 +1,18 @@
+{
+  "distance": "dfd",
+  "parameter_mode": "auto",
+  "top_k_profiles": {
+    "1": {
+      "initial_k": 32,
+      "initial_pool": 64
+    },
+    "20": {
+      "initial_k": 32,
+      "initial_pool": 64
+    },
+    "1000": {
+      "initial_k": 1000,
+      "initial_pool": 2000
+    }
+  }
+}

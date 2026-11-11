@@ -1,0 +1,1247 @@
+[
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "LB",
+    "round": 0,
+    "ms": 269.5183791220188,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275124.875281,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243881484288,
+      "cpu_load": [
+        190.93,
+        191.1,
+        191.43
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275125.2569945,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243867758592,
+      "cpu_load": [
+        190.93,
+        191.1,
+        191.43
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "full",
+    "round": 0,
+    "ms": 6.711944937705994,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275125.3926415,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 71,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243867791360,
+      "cpu_load": [
+        190.93,
+        191.1,
+        191.43
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275125.523,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243863973888,
+      "cpu_load": [
+        190.93,
+        191.1,
+        191.43
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "ranking",
+    "round": 0,
+    "ms": 3.7142131477594376,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275125.6568239,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243870982144,
+      "cpu_load": [
+        190.93,
+        191.1,
+        191.43
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275125.8031352,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 2,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243894497280,
+      "cpu_load": [
+        190.93,
+        191.1,
+        191.43
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "LB",
+    "round": 1,
+    "ms": 269.69955302774906,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275270.427176,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 87,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243591368704,
+      "cpu_load": [
+        191.21,
+        191.13,
+        191.39
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275270.8790634,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243595272192,
+      "cpu_load": [
+        191.21,
+        191.13,
+        191.39
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "full",
+    "round": 1,
+    "ms": 6.669169291853905,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275271.067034,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243607412736,
+      "cpu_load": [
+        191.21,
+        191.13,
+        191.39
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275271.263034,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243600416768,
+      "cpu_load": [
+        191.21,
+        191.13,
+        191.39
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "ranking",
+    "round": 1,
+    "ms": 2.8680358082056046,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275271.4759278,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243995013120,
+      "cpu_load": [
+        191.21,
+        191.13,
+        191.39
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275271.6390684,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 244010041344,
+      "cpu_load": [
+        191.21,
+        191.13,
+        191.39
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "LB",
+    "round": 2,
+    "ms": 269.5704884827137,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275565.7430892,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245217067008,
+      "cpu_load": [
+        192.11,
+        191.56,
+        191.49
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275566.1630735,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245201932288,
+      "cpu_load": [
+        192.11,
+        191.56,
+        191.49
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "full",
+    "round": 2,
+    "ms": 6.643297150731087,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275566.3670676,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245202468864,
+      "cpu_load": [
+        192.11,
+        191.56,
+        191.49
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275566.5470529,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245199998976,
+      "cpu_load": [
+        192.11,
+        191.56,
+        191.49
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "ranking",
+    "round": 2,
+    "ms": 2.82893143594265,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275566.7630696,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245618429952,
+      "cpu_load": [
+        192.11,
+        191.56,
+        191.49
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275566.9389272,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245637332992,
+      "cpu_load": [
+        192.11,
+        191.56,
+        191.49
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "LB",
+    "round": 3,
+    "ms": 269.5638779550791,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275679.5712857,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245331533824,
+      "cpu_load": [
+        192.01,
+        191.74,
+        191.57
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275679.9909995,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41358,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4080 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245322510336,
+      "cpu_load": [
+        192.01,
+        191.74,
+        191.57
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "full",
+    "round": 3,
+    "ms": 6.912836804986,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275680.2231936,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 35,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245318418432,
+      "cpu_load": [
+        192.01,
+        191.74,
+        191.57
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275680.4111366,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 5,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245348556800,
+      "cpu_load": [
+        192.01,
+        191.74,
+        191.57
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "ranking",
+    "round": 3,
+    "ms": 2.9471851885318756,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275680.6511145,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 5,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245738602496,
+      "cpu_load": [
+        192.01,
+        191.74,
+        191.57
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275680.8385959,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 2,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 245751533568,
+      "cpu_load": [
+        192.01,
+        191.74,
+        191.57
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "ranking",
+    "round": 4,
+    "ms": 17.930302768945694,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275913.7518876,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41946,
+      "utilization": 38,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "3492 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243247828992,
+      "cpu_load": [
+        193.27,
+        193.08,
+        192.18
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275913.9285204,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41946,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "3492 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243263774720,
+      "cpu_load": [
+        193.27,
+        193.08,
+        192.18
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "full",
+    "round": 4,
+    "ms": 8.223911747336388,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275914.1119657,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41944,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "3494 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243279319040,
+      "cpu_load": [
+        193.27,
+        193.08,
+        192.18
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275914.2791398,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41944,
+      "utilization": 0,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "3494 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243278262272,
+      "cpu_load": [
+        193.27,
+        193.08,
+        192.18
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  },
+  {
+    "n": 1597579,
+    "k": 20,
+    "mode": "LB",
+    "round": 4,
+    "ms": 269.60916444659233,
+    "effective": {
+      "k": 20,
+      "s": 50,
+      "pool": 50,
+      "pool_parameter": null,
+      "full_large_k": false,
+      "query_batch": 512,
+      "full_query_batch_limit": 512,
+      "ranking_return_count": 20,
+      "ranking_large_k": false,
+      "ranking_hd_tree_or_dense": "tree"
+    },
+    "hardware_before": {
+      "time": 1793275914.7909455,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243683762176,
+      "cpu_load": [
+        193.27,
+        193.08,
+        192.18
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    },
+    "hardware_after": {
+      "time": 1793275915.230851,
+      "name": "NVIDIA L20",
+      "uuid": "<GPU_UUID>",
+      "free_mib": 41356,
+      "utilization": 100,
+      "foreign_python": [],
+      "foreign_gpu": [],
+      "gpu_processes": [
+        {
+          "pid": 1166006,
+          "name": "python",
+          "created": 1793274704.3,
+          "command": [
+            "<HOST_PATH>/python",
+            "<HOST_PATH>/benchmark.py",
+            "worker",
+            "size",
+            "hausdorff"
+          ],
+          "memory": "4082 MiB"
+        }
+      ],
+      "physical_gpu": 0,
+      "ram_available": 243683352576,
+      "cpu_load": [
+        193.27,
+        193.08,
+        192.18
+      ],
+      "isolation_scope": "physical GPU0 UUID only; GPU1 is not reserved"
+    }
+  }
+]

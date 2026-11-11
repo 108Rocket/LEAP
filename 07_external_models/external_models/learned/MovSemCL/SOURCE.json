@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "model": "MovSemCL",
+  "repository": "https://github.com/ryanlaics/MovSemCL.git",
+  "commit": "455da9faa3ded43623ce6e72acbe6b51592b4a48",
+  "git_tree": "6f7a7ae8397fd9a560171dd2ab055e172152b263",
+  "source_directory": "upstream",
+  "files": {
+    "README.md": {
+      "sha256": "00dc0becd78cb7cf87c6bad94ac66692502ade64316392534e69682f558ed8ed",
+      "git_blob": "75ec981094cb4c7fbc20e9c28cbfe92a6031f0b9",
+      "mode": "100644"
+    },
+    "config.py": {
+      "sha256": "0f164804e351518ef2ccdc21dabc40f5c404a5223609b443990d8cda7bdbb44d",
+      "git_blob": "201ee0dd895a3248b33b9ee1ede1edf40e814cdd",
+      "mode": "100644"
+    },
+    "model/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "model/hier_sem_encoding.py": {
+      "sha256": "14279c1996f8b26a221e3d4f00d038a3cff2900871b44e5d61d970309181ba3c",
+      "git_blob": "73abdf15ff4f89c2429433d6af73f6448beb7045",
+      "mode": "100644"
+    },
+    "model/moco.py": {
+      "sha256": "f768502e3d07541695d9de9859396d3d851c7064aefb841d397cfae5250895b6",
+      "git_blob": "db9440756e6c14532a8a96b4405c9b7b169e9cf9",
+      "mode": "100644"
+    },
+    "model/node2vec_.py": {
+      "sha256": "a5b0c1f3828aa894ad573d1b5f73235c13569cd1e2fa726b65e5575819e5195d",
+      "git_blob": "a56843bc1db41bacbac396db1714ee372e7af212",
+      "mode": "100644"
+    },
+    "model/semmovcl.py": {
+      "sha256": "15c047a1b804e69a6bd6d3dfa7cb6a13ee4bc349e2f4d5a9742619951e479934",
+      "git_blob": "6ae14a6a0651091cc32cb697aef81df76b31fd80",
+      "mode": "100644"
+    },
+    "requirements.txt": {
+      "sha256": "c9b727786e603776e3e4d6cd3dffb0cdeb7a1ad12f00aec3619ac4674fdb479c",
+      "git_blob": "1e1a07e21e7e28562dcd33d095f9ae3aee07f5fb",
+      "mode": "100644"
+    },
+    "task/trajsimi.py": {
+      "sha256": "ab1cd826886833839b3c5334d0b10010f0be4576fa20f1a5466535d55267d9b0",
+      "git_blob": "d5e4936570b7b3d3e92ccf6cac34947e3e9bf4fa",
+      "mode": "100644"
+    },
+    "train.py": {
+      "sha256": "a6cdf24353f901df39ee9e0de57d9eb96b28909c05330ab3171c7f68fc39acef",
+      "git_blob": "22d31a65e7f6cf66c13a06f6a1f7845f80092c4f",
+      "mode": "100644"
+    },
+    "train_trajsimi.py": {
+      "sha256": "3a95c10cdbe00b41c1e6b3f51ee0e383ceadff871b16af694dcc7fd83e18f280",
+      "git_blob": "10e8b91e6c5c8c22a233df5a9518bb831c1aa946",
+      "mode": "100644"
+    },
+    "utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "utils/cellspace.py": {
+      "sha256": "2ded15109508a98c87feea043b152c67e2ede74b0f874438f06048c6ea2efccc",
+      "git_blob": "043712f9b6903474c11e64d82fc8ad6782080b0e",
+      "mode": "100644"
+    },
+    "utils/data_loader.py": {
+      "sha256": "8fadd93ca06e59f64f297ae59115c0ee056073ff851506f905352b99891941ba",
+      "git_blob": "145194063fe36d1d856a59ed6e9b987ad06f321a",
+      "mode": "100644"
+    },
+    "utils/edwp.py": {
+      "sha256": "9840743766ad84ea20221f87974f32e99fbb2a0e1fd59876d110c13e2757ae71",
+      "git_blob": "a981f29ba47437966855972b41a7dd58be5c45d7",
+      "mode": "100644"
+    },
+    "utils/edwp.pyx": {
+      "sha256": "73b0797a4359f96d50a73ffa83f43183448911ba72928ae0d4ef80115c4a7798",
+      "git_blob": "d4fee1c0076843c0b3517ff798ad8489d71cb7f7",
+      "mode": "100644"
+    },
+    "utils/preprocessing.py": {
+      "sha256": "5a4181d5af93daf675ee537165dae93dbfdbe89ab0cb08cf697d3e9bd6f48339",
+      "git_blob": "ae02f103338b55f80c8f2c17ee368e1e21216cc7",
+      "mode": "100644"
+    },
+    "utils/rdp.py": {
+      "sha256": "c31796cd969b9db9bd68a1e5f22e0429fdc1517188d417d3743bc3bd4e8d1211",
+      "git_blob": "9329f82e550d496c24738502332f63774bc61b60",
+      "mode": "100644"
+    },
+    "utils/setup.py": {
+      "sha256": "75a901fc260d831ffeefba34511d62d220b8b4b6895cfe586085fa9c4e59c00e",
+      "git_blob": "240ddd1198203ca43698cb65cbf18f8f37fca684",
+      "mode": "100644"
+    },
+    "utils/tool_funcs.py": {
+      "sha256": "cf341a6ab5bf3ad2406b927957dab153942e157e305e6d4a1013966d090cc48b",
+      "git_blob": "b8a46f6cc7514af3d257f024d8cfc5d64c53f629",
+      "mode": "100644"
+    },
+    "utils/traj.py": {
+      "sha256": "cf516f2300bb1053c190879fe74bcdd464aefaff420b76989afc141982fa67a2",
+      "git_blob": "5afa3c3cec6bfdbb2a07c54d98889c5c82f09354",
+      "mode": "100644"
+    }
+  },
+  "omitted": [],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

@@ -1,0 +1,5 @@
+{
+  "distance": "hausdorff",
+  "query_profile": "single_query",
+  "single_query_engine": "specialized"
+}

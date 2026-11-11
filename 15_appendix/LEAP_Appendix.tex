@@ -1,0 +1,354 @@
+\documentclass[10pt,conference,letterpaper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[nospread,noshrink]{flushend}
+
+\newtheorem{proposition}{Proposition}
+\newcommand{\codefile}[2]{\href{https://github.com/DongXinfzu/LEAP/blob/main/#1}{\texttt{#2}}}
+
+\hypersetup{
+  pdftitle={LEAP: Supplementary Proofs},
+  pdfauthor={Xin Dong, Yusen Liu, Hua Lu, Huan Li, Dalin Zhang, Zhichen Lai, Xing Chen},
+  pdfsubject={Repository appendix: geometric and DTW lower-bound proofs},
+  pdfkeywords={LEAP, trajectory similarity search, lower bounds, DTW}
+}
+
+\title{LEAP: Supplementary Proofs}
+\author{\IEEEauthorblockN{Xin Dong\textsuperscript{1,*}, Yusen Liu\textsuperscript{2,*},
+Hua Lu\textsuperscript{3}, Huan Li\textsuperscript{4}, Dalin Zhang\textsuperscript{5},
+Zhichen Lai\textsuperscript{1,\textdagger}, and Xing Chen\textsuperscript{1}}
+\IEEEauthorblockA{\textsuperscript{1}Fuzhou University;
+\textsuperscript{2}University of Technology Sydney;
+\textsuperscript{3}Aalborg University\\
+\textsuperscript{4}Zhejiang University;
+\textsuperscript{5}Hangzhou Dianzi University\\
+\textsuperscript{*}Equal contribution.
+\textsuperscript{\textdagger}Corresponding author.}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This repository companion collects the complete proofs of LEAP's cross-field
+lower bound, critical-position proximity property, weighted DTW block bound,
+and DTW signal lower bound. The four appendices correspond to Appendices A--D
+of the repository README. All statements concern real arithmetic; the
+implementation links identify the corresponding computations.
+\end{abstract}
+
+\section*{Notation}
+For a trajectory $T$, let $V_T$ be its sampled positions and $E_T$ the union
+of the line segments joining consecutive positions. The distance from a point
+$x$ to a set $S$ is
+$\mathrm{dist}(x,S)=\min_{z\in S}\lVert x-z\rVert_2$.
+For probe $p_j^{\mathrm{pr}}$, the nearest-position and segment fields are
+\begin{equation}
+\begin{aligned}
+a_j(T)&=\mathrm{dist}(p_j^{\mathrm{pr}},V_T),\\
+b_j(T)&=\mathrm{dist}(p_j^{\mathrm{pr}},E_T).
+\end{aligned}
+\end{equation}
+The directed and symmetric vertex-to-segment Hausdorff distances are
+\begin{equation}
+\begin{aligned}
+h(T_A,T_B)&=\max_{p\in V_{T_A}}\mathrm{dist}(p,E_{T_B}),\\
+D_H(T_A,T_B)&=\max\{h(T_A,T_B),h(T_B,T_A)\}.
+\end{aligned}
+\end{equation}
+The cross-field lower bound combines all probes and both directions:
+\begin{equation}
+\begin{aligned}
+L_H(T_A,T_B)=\max\bigl\{0,\;&\max_j[b_j(T_B)-a_j(T_A)],\\
+&\max_j[b_j(T_A)-a_j(T_B)]\bigr\}.
+\end{aligned}
+\end{equation}
+
+\appendices
+\section{Validity of the Cross-Field Bound}
+\label{app:validity}
+
+\begin{proposition}
+For any probe positions,
+$0\leq L_H(T_A,T_B)\leq D_H(T_A,T_B)$ in real arithmetic.
+Validity does not depend on learning.
+\end{proposition}
+
+\begin{IEEEproof}
+Fix $p_j^{\mathrm{pr}}$ and choose its nearest position $p\in V_{T_A}$.
+Apply the Euclidean triangle inequality through $p$ to its nearest point on
+$E_{T_B}$ to obtain
+\begin{equation}
+\begin{aligned}
+b_j(T_B)&=\mathrm{dist}(p_j^{\mathrm{pr}},E_{T_B})\\
+&\leq\lVert p_j^{\mathrm{pr}}-p\rVert_2+\mathrm{dist}(p,E_{T_B})\\
+&\leq a_j(T_A)+h(T_A,T_B).
+\end{aligned}
+\end{equation}
+Hence $b_j(T_B)-a_j(T_A)\leq h(T_A,T_B)$. Interchanging $T_A$ and $T_B$
+proves the other direction. Taking the maximum over probes and both directions,
+with zero included, yields the result.
+\end{IEEEproof}
+
+\section{Critical-Position Proximity}
+\label{app:proximity}
+
+A \emph{critical position} $p^*$ is a sampled position that attains
+$D_H(T_A,T_B)$ in either direction. For probe set $\Theta$, let
+$\delta_\Theta(p^*)=\min_j\lVert p_j^{\mathrm{pr}}-p^*\rVert_2$ be its
+distance to the nearest probe.
+
+\begin{proposition}
+For any critical position $p^*$,
+\begin{equation}
+0\leq D_H(T_A,T_B)-L_H(T_A,T_B)\leq 2\delta_\Theta(p^*).
+\end{equation}
+\end{proposition}
+
+\begin{IEEEproof}
+Suppose $p^*\in V_{T_A}$ and
+$\mathrm{dist}(p^*,E_{T_B})=D_H(T_A,T_B)$. Choose the nearest probe
+$p_j^{\mathrm{pr}}$, at distance $\delta=\delta_\Theta(p^*)$.
+By the same triangle-inequality argument,
+$b_j(T_B)\geq D_H(T_A,T_B)-\delta$. Since $p^*$ is a position of $T_A$,
+$a_j(T_A)\leq\delta$. Therefore
+\begin{equation}
+\begin{aligned}
+L_H(T_A,T_B)&\geq b_j(T_B)-a_j(T_A)\\
+&\geq D_H(T_A,T_B)-2\delta.
+\end{aligned}
+\end{equation}
+The case $p^*\in V_{T_B}$ follows by symmetry, and validity gives nonnegativity.
+\end{IEEEproof}
+
+\section{Weighted DTW Block Bound}
+\label{app:block}
+
+This bound is a check before original-distance refinement, not the signal
+bound used for candidate ranking. It follows the paper's DTW subsection
+under Filtering and Exact Search.
+
+\subsection{Blocks and Costs}
+Let $q=(p_1^q,\ldots,p_n^q)$ and $T=(p_1^T,\ldots,p_m^T)$ be nonempty
+trajectories. Their DTW distance $D_W(q,T)$ is the minimum sum of Euclidean
+point-to-point distances along an alignment from $(1,1)$ to $(n,m)$, using
+steps $(1,0)$, $(0,1)$, or $(1,1)$. Thus every position of each trajectory is
+matched at least once, and positions are visited in order.
+
+We split each trajectory into four consecutive blocks with nearly equal
+position counts. For a trajectory of length $n\geq4$, block $s$ contains
+positions $\lceil(s-1)n/4\rceil+1$ through $\lceil sn/4\rceil$, for
+$s\in\{1,2,3,4\}$. If $n<4$, each position forms one block and the remaining
+slots are empty. Query block $s$ contains $n_s$ positions, and candidate block
+$t$ contains $m_t$ positions.
+
+For each nonempty block and fixed filtering probe $p_{W,j}^{\mathrm{pr}}$,
+we record the minimum and maximum distance from its positions to that probe.
+The intervals are $[l^q_{sj},h^q_{sj}]$ for the query and $[l^T_{tj},h^T_{tj}]$
+for the candidate. Rows of the following matrix index query blocks; columns
+index candidate blocks:
+\begin{equation}
+G_{st}=\max_j\max\{0,l^q_{sj}-h^T_{tj},l^T_{tj}-h^q_{sj}\}.
+\end{equation}
+Empty blocks have zero counts and zero intervals, and we explicitly set
+$G_{st}=0$ whenever either block is empty. For positions $x$ and $y$ in
+nonempty blocks $s$ and $t$, respectively, the reverse triangle inequality gives
+\begin{equation}
+\begin{aligned}
+\lVert x-y\rVert_2
+&\geq\bigl|\lVert x-p_{W,j}^{\mathrm{pr}}\rVert_2
+          -\lVert y-p_{W,j}^{\mathrm{pr}}\rVert_2\bigr|\\
+&\geq\max\{0,l^q_{sj}-h^T_{tj},l^T_{tj}-h^q_{sj}\}.
+\end{aligned}
+\end{equation}
+Taking the maximum over probes shows that $G_{st}$ lower-bounds every
+point-pair distance in those blocks. For a nonnegative block-cost matrix $A$,
+write $\mathrm{DTW}(A)$ for the minimum summed cost along a path from its
+upper-left to lower-right cell, with the same three allowed steps.
+The coarse bound is $\mathrm{DTW}(G)$.
+
+\subsection{Weighted Bounds}
+For each query block, its smallest cost over candidate blocks lower-bounds
+the matching cost of each query position in that block. Weighting this
+minimum by the block's position count accounts for those positions. We
+subtract this minimum before processing candidate blocks so that their
+contributions do not count the same part of a cost twice:
+\begin{equation}
+\begin{aligned}
+u_s&=\min_t G_{st},\qquad v_t=\min_s(G_{st}-u_s),\\
+R_{st}&=G_{st}-u_s-v_t\geq0,\\
+L_{\mathrm{row}}&=\sum_s n_su_s+\sum_t m_tv_t+\mathrm{DTW}(R).
+\end{aligned}
+\end{equation}
+Here $u_s$ is the query-block contribution per position, $v_t$ is the
+candidate-block contribution after subtraction, and $R$ contains the
+remaining costs. Its DTW term retains the order of blocks. The subscript
+\texttt{row} means that query blocks (matrix rows) are processed first.
+
+Processing candidate blocks (matrix columns) first gives a second bound:
+\begin{equation}
+\begin{aligned}
+v'_t&=\min_s G_{st},\qquad u'_s=\min_t(G_{st}-v'_t),\\
+R'_{st}&=G_{st}-u'_s-v'_t\geq0,\\
+L_{\mathrm{col}}&=\sum_s n_su'_s+\sum_t m_tv'_t+\mathrm{DTW}(R').
+\end{aligned}
+\end{equation}
+We keep the strongest of the coarse and two weighted bounds:
+\begin{equation}
+L_{\mathrm{block}}
+=\max\{\mathrm{DTW}(G),L_{\mathrm{row}},L_{\mathrm{col}}\}.
+\end{equation}
+
+\subsection{Validity}
+\begin{proposition}
+In real arithmetic, $0\leq L_{\mathrm{block}}(q,T)\leq D_W(q,T)$.
+\end{proposition}
+
+\begin{IEEEproof}
+Fix any original alignment $\pi$. For a matched index pair $(i,r)\in\pi$,
+let $s(i)$ and $t(r)$ be the blocks containing positions $p_i^q$ and $p_r^T$.
+The block-cost inequality gives
+\begin{equation}
+\begin{aligned}
+\sum_{(i,r)\in\pi}\lVert p_i^q-p_r^T\rVert_2
+&\geq\sum_{(i,r)\in\pi}G_{s(i),t(r)}\\
+&=\sum_{(i,r)\in\pi}
+\bigl(u_{s(i)}+v_{t(r)}+R_{s(i),t(r)}\bigr).
+\end{aligned}
+\end{equation}
+Every query position is matched at least once. Since $u_s\geq0$, the sum
+of query contributions is at least $\sum_s n_su_s$. Similarly, $v_t\geq0$
+gives a candidate contribution of at least $\sum_t m_tv_t$. These sums count
+different portions of each matched-pair cost, not two copies of that cost.
+
+Map the alignment to its block pairs and collapse consecutive repetitions
+of the same pair. Consecutive blocks preserve the original order, so this
+produces a valid block path. Removing repetitions cannot increase the sum
+of the nonnegative remaining costs $R_{st}$. Its cost is at least
+$\mathrm{DTW}(R)$, the minimum over all such paths. Consequently,
+\begin{equation}
+\begin{aligned}
+\sum_{(i,r)\in\pi}\lVert p_i^q-p_r^T\rVert_2
+&\geq\sum_s n_su_s+\sum_t m_tv_t\\
+&\quad+\mathrm{DTW}(R)=L_{\mathrm{row}}.
+\end{aligned}
+\end{equation}
+The inequality holds for every original alignment, hence
+$L_{\mathrm{row}}\leq D_W(q,T)$. Reversing the subtraction order proves
+$L_{\mathrm{col}}\leq D_W(q,T)$. Applying the same block-path argument
+directly to $G$ proves $\mathrm{DTW}(G)\leq D_W(q,T)$. Taking their maximum
+preserves the lower-bound inequality.
+
+For trajectories with fewer than four positions, the mapped path ends at
+the last nonempty block pair. Extend it to the final padded cell through
+zero-cost cells. On every padded cell, $G_{st}=0$ and the nonnegative
+decomposition forces $u_s=v_t=R_{st}=0$; the column-first case is identical.
+Thus padding adds no cost, and the argument still applies.
+\end{IEEEproof}
+
+Filtering can therefore stop early when
+$L_{\mathrm{block}}(q,T)>\widehat r_{W,q}$. Equality does not trigger
+rejection. Remaining candidates proceed to original DTW refinement with
+its running-bound early stopping.
+
+\paragraph{Implementation}
+The block-filter implementation provides
+\codefile{01_LEAP/leap/dtw/dtw_probe_intervals.py}{counts} and
+\codefile{01_LEAP/leap/dtw/dtw_probe_intervals.py}{stats\_torch}
+for the block partition,
+\codefile{01_LEAP/leap/dtw/dtw_probe_intervals.py}{bound\_torch}
+for the reference calculation, and
+\codefile{01_LEAP/leap/dtw/dtw_probe_intervals.py}{pair\_kernel}
+for the GPU calculation. The existing implementation also applies a
+dtype-dependent downward numerical guard; the proof above concerns the
+mathematical bound in real arithmetic.
+
+\section{DTW Signal Lower Bound}
+\label{app:signal}
+
+This is the signal bound used to rank DTW candidates
+(\texttt{eq:dtw-signal}), not the block bound in Appendix~\ref{app:block}
+or the learned summary retrieval score.
+
+\subsection{Definition}
+Let $A=(x_1,\ldots,x_n)$ and $B=(y_1,\ldots,y_m)$ be nonempty trajectories,
+and let $c_{W,1},\ldots,c_{W,M_s}$ be a shared set of $M_s\geq1$ probes.
+For a vertex $x$, its signal at probe $j$ is
+$\sigma_j(x)=\lVert x-c_{W,j}\rVert_2$. Define the signal matching cost by
+\begin{equation}
+\ell_{\mathrm{sig}}(x,y)
+=\max_{1\leq j\leq M_s}|\sigma_j(x)-\sigma_j(y)|.
+\end{equation}
+Let $\Pi_{n,m}$ contain the monotone paths from $(1,1)$ to $(n,m)$ with
+steps $(1,0)$, $(0,1)$, or $(1,1)$. Both quantities use this same path set,
+retaining every vertex in its original order:
+\begin{equation}
+\begin{aligned}
+L_W^{\mathrm{sig}}(A,B)
+&=\min_{\pi\in\Pi_{n,m}}\sum_{(i,l)\in\pi}
+\ell_{\mathrm{sig}}(x_i,y_l),\\
+D_W(A,B)
+&=\min_{\pi\in\Pi_{n,m}}\sum_{(i,l)\in\pi}
+\lVert x_i-y_l\rVert_2.
+\end{aligned}
+\end{equation}
+Here DTW sums Euclidean distances, without squaring or length normalization.
+Earlier manuscript notation $D_W^{\mathrm{sig}}$ denotes the same signal
+quantity as $L_W^{\mathrm{sig}}$ above.
+
+\subsection{Validity}
+\begin{proposition}
+For any shared probe positions, in real arithmetic,
+$0\leq L_W^{\mathrm{sig}}(A,B)\leq D_W(A,B)$.
+\end{proposition}
+
+\begin{IEEEproof}
+The Euclidean triangle inequality gives, for every probe $j$,
+\begin{equation}
+\begin{aligned}
+\sigma_j(x)&\leq\lVert x-y\rVert_2+\sigma_j(y),\\
+\sigma_j(y)&\leq\lVert x-y\rVert_2+\sigma_j(x).
+\end{aligned}
+\end{equation}
+Combining these two inequalities yields
+$|\sigma_j(x)-\sigma_j(y)|\leq\lVert x-y\rVert_2$. The right-hand side
+does not depend on $j$, so taking the maximum over probes preserves it:
+$0\leq\ell_{\mathrm{sig}}(x,y)\leq\lVert x-y\rVert_2$.
+
+Now choose an original-DTW minimizing path $\pi_W\in\Pi_{n,m}$, which
+exists because the trajectories and path set are finite. The signal minimum
+cannot exceed the signal cost along this particular path. Summing the
+point-pair inequalities along it gives
+\begin{equation}
+\begin{aligned}
+0\leq L_W^{\mathrm{sig}}(A,B)
+&\leq\sum_{(i,l)\in\pi_W}\ell_{\mathrm{sig}}(x_i,y_l)\\
+&\leq\sum_{(i,l)\in\pi_W}\lVert x_i-y_l\rVert_2\\
+&=D_W(A,B).
+\end{aligned}
+\end{equation}
+The signal-minimizing path need not equal $\pi_W$. No interchange of the
+minimum, sum, or maximum is used. Repeated vertices, ties, and single-vertex
+trajectories do not change the argument. Learning can change the bound's
+tightness, but validity holds for any shared probe positions.
+\end{IEEEproof}
+
+\paragraph{Implementation}
+The signal encoder
+\codefile{01_LEAP/leap/dtw/dtw_signal.py}{encode}
+computes vertex-to-probe distances. The
+\codefile{01_LEAP/leap/dtw/dtw_signal.py}{signal\_kernel}
+takes the maximum absolute signal difference for each matched pair and
+applies the three-predecessor DTW recurrence. The
+\codefile{01_LEAP/leap/dtw/dtw_signal_bucket.py}{pairs}
+function buckets trajectory lengths without dropping vertices or changing
+the recurrence. The proof concerns exact real arithmetic, not a guarantee that
+floating-point roundoff preserves the inequality without a numerical guard.
+It does not make the separate learned summary score a lower bound.
+
+\section*{Repository}
+The README proofs and corresponding implementation are available at
+\url{https://github.com/DongXinfzu/LEAP}.
+
+\end{document}

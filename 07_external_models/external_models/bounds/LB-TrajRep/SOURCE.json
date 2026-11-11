@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "model": "LB-TrajRep",
+  "repository": "https://github.com/LIWEIDENG0830/LB-TrajRep.git",
+  "commit": "adda27cf801ce3be87dc220490b0deec01231972",
+  "git_tree": "55a72c43cb1e1ba7ced06ff3daeb96ad9ccab4e0",
+  "source_directory": "upstream",
+  "files": {
+    ".gitignore": {
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+      "git_blob": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "mode": "100644"
+    },
+    "README.md": {
+      "sha256": "15ae5b2bf90e3720e138fbebae173e03b98768000b03027159042bd4548a4f87",
+      "git_blob": "d51e69171f3690a1ff6f327355cd36d22b550905",
+      "mode": "100644"
+    },
+    "config/new_config.py": {
+      "sha256": "c91372e4cabd89ddd3571e1a989c51ed921fb26aa2d50e91917f5de8f421844b",
+      "git_blob": "0e160e8f474441db449aa757382c1ec26d5761f9",
+      "mode": "100644"
+    },
+    "requirements.txt": {
+      "sha256": "29b7448f7b7a4164d7d556d99d62f843e49cc4f13c166d4d18951e5874d3a136",
+      "git_blob": "e4baf67070b6eba8deca77013d3407e8dace6208",
+      "mode": "100644"
+    },
+    "tools/feature_distance.py": {
+      "sha256": "dc8f75b4c396a2b794226197542c76738657aa203c2b2be2cb8cd437d10413fd",
+      "git_blob": "e4a6958bc1b00ae194076eb8fb62f471bc99394a",
+      "mode": "100644"
+    },
+    "tools/function.py": {
+      "sha256": "478046f48b676608ef15502fea7479684edb778ee9501a758ad7e0209ebfc2ca",
+      "git_blob": "ca3a71ec7e76122db4a2d64a1cca0bcd12a3979f",
+      "mode": "100644"
+    },
+    "tools/pivot_lower_bound.py": {
+      "sha256": "4526db9e7e29330820e9e671cba991cfeca397a87c9c04bd4ad467014539752b",
+      "git_blob": "f3393f746b2fc96f9bb48528b11d7957886d0572",
+      "mode": "100644"
+    },
+    "tools/pivot_selection.py": {
+      "sha256": "70cf7d64948520ccaeecc65c2399ab42049996872fe8be01fc6d3bdad552cff3",
+      "git_blob": "5f34ed728b971fc07b63823f2c081854e8ee223b",
+      "mode": "100644"
+    },
+    "tools/start_end_lb.py": {
+      "sha256": "86169f6f5fafa88de03b7b23e2b3f18377f1d13122a12cc208c54cdcd519f521",
+      "git_blob": "2419670a814e4473d31b640f0ab6739a97bec071",
+      "mode": "100644"
+    },
+    "tools/test_methods.py": {
+      "sha256": "b1941ea68c12efda65f6f402865a76ac764b64ede9be4e5e3a73e4db1eaddd3d",
+      "git_blob": "2b8a8cdedc26b96f25a9062764b713f8c3696a5d",
+      "mode": "100644"
+    },
+    "train.py": {
+      "sha256": "9438733de6b655e29e83312d614ca4a424ea0a9a64b53ce84b52b514e9c3c70d",
+      "git_blob": "9e47aae837c6a412fff1bf4ab837c71ae03cb931",
+      "mode": "100644"
+    }
+  },
+  "omitted": [
+    {
+      "path": "Paper-with-Appendix.pdf",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "figures/Geolife-results.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "figures/Porto-results.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    }
+  ],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

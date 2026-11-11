@@ -1,0 +1,50 @@
+{
+  "historical_example": true,
+  "source_task": "20261007-1555-sdd-pointset-hd-retrain",
+  "scope": "Actual SDD Porto seed2000 training history and phase configuration, matched to the shipped checkpoint.",
+  "redactions": "Machine-specific absolute path strings and GPU UUID strings only. Numeric values are unchanged.",
+  "records": [
+    {
+      "file": "ALL_DONE.json",
+      "source_file": "ALL_DONE.json",
+      "source_sha256": "c613b16d62792b829eee1953e81859aa3d418badb5ce68d1c344ad39f4b2f376",
+      "export_sha256": "ef1c5dd3babe0a348214eb5f07572da11ee590d3fc0fdab8bfbb66495add3d24",
+      "selection": "complete file"
+    },
+    {
+      "file": "phase1/training/baseline/history.json",
+      "source_file": "history.json",
+      "source_sha256": "0750860498906333a46b780392d976fe0c31c6c08e82efff1f842ef049b74ad2",
+      "export_sha256": "fc3e00d59627066aff3cd178c7687496f65675d98e8fa87a47453625413a185a",
+      "selection": "complete file"
+    },
+    {
+      "file": "phase1/training/baseline/protocol.json",
+      "source_file": "protocol.json",
+      "source_sha256": "2687ed8c6a248e9e2dae3e5ba1a9dbf7b3e69fb50266382aebb7a1554acd6a76",
+      "export_sha256": "200b75820a62571ab21050dd1bab7c0b10e1a8b1d96ce97b996c149cd73382a5",
+      "selection": "complete file"
+    },
+    {
+      "file": "phase2/training/protect48/history.json",
+      "source_file": "history.json",
+      "source_sha256": "84a29c5ef2aecf75dacef6ea5a973968a290ea67dccf96162bf23c792152b022",
+      "export_sha256": "f243f2b98074fa044b44faeb1a6500f93adb255edda741ee59b9a93facfd4475",
+      "selection": "complete file"
+    },
+    {
+      "file": "phase2/training/protect48/protocol.json",
+      "source_file": "protocol.json",
+      "source_sha256": "538a7f8981ea90a3e8e86df83bd695f7af02dac4cc4b99b054dfea3a1de28f97",
+      "export_sha256": "3a6306d6ada7290deafeafeac5f0ab5b8b852bc1083e9e180d830e4675363d1a",
+      "selection": "complete file"
+    },
+    {
+      "file": "checkpoint_receipt.json",
+      "source_file": "s2000.hausdorff.receipt.json",
+      "source_sha256": "5664de74f9bbe1eafc67bd44f50bce9ed2342bc96d48daa4c3670477e2313dad",
+      "export_sha256": "960cb14373f35bd59995a94746abe7fdab992bd40128969b378e42744ed17ce7",
+      "selection": "complete file"
+    }
+  ]
+}

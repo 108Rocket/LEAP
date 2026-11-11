@@ -1,0 +1,7 @@
+{
+  "distance": "hausdorff",
+  "hausdorff_target": "pointset",
+  "hausdorff_fields": "near_far",
+  "search_engine": "fast",
+  "dynamic_threshold": false
+}

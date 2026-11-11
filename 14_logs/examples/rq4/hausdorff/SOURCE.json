@@ -1,0 +1,50 @@
+{
+  "historical_example": true,
+  "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+  "scope": "Database scaling endpoints, seed2000. All rounds at 100K and 1597579 retained; not selected by speed.",
+  "redactions": "Machine-specific absolute path strings and GPU UUID strings only. Numeric values are unchanged.",
+  "records": [
+    {
+      "file": "samples.json",
+      "source_file": "SAMPLES.json",
+      "source_sha256": "1f69476d4388c490b4ee66ff786e00b2319dfcc0edbe15646585c4112b78eb19",
+      "export_sha256": "190643b042ff3b58c73f43f122f71b14ad0893cebdde624222f8c0e7a6fc8d1d",
+      "selection": "all modes/rounds at the two size endpoints"
+    },
+    {
+      "file": "100000.calls.json",
+      "source_file": "100000.k20.CALLS.json",
+      "source_sha256": "ae97c789ae8f4800d22f878b55216aa67a821aba75c00bc06d5f79c061667498",
+      "export_sha256": "ae97c789ae8f4800d22f878b55216aa67a821aba75c00bc06d5f79c061667498",
+      "selection": "complete file"
+    },
+    {
+      "file": "100000.subset.json",
+      "source_file": "100000.SUBSET.json",
+      "source_sha256": "2704a5fdbc3e7d9dfa3fcffe7eb1bb7fb992a0054ddf0eaea9e64515c3935473",
+      "export_sha256": "2704a5fdbc3e7d9dfa3fcffe7eb1bb7fb992a0054ddf0eaea9e64515c3935473",
+      "selection": "complete file"
+    },
+    {
+      "file": "1597579.calls.json",
+      "source_file": "1597579.k20.CALLS.json",
+      "source_sha256": "fedc082acc1579ea0432099c90299b40a239513e24254cccf8dd027ff3541293",
+      "export_sha256": "fedc082acc1579ea0432099c90299b40a239513e24254cccf8dd027ff3541293",
+      "selection": "complete file"
+    },
+    {
+      "file": "1597579.subset.json",
+      "source_file": "1597579.SUBSET.json",
+      "source_sha256": "895cae3e7f29fc75782a0cedab5ee097deaaec48273048861fcf08b6bbd3d233",
+      "export_sha256": "895cae3e7f29fc75782a0cedab5ee097deaaec48273048861fcf08b6bbd3d233",
+      "selection": "complete file"
+    },
+    {
+      "file": "completion.json",
+      "source_file": "DONE.json",
+      "source_sha256": "c6797741c451c4f160222f582be4c66d63438f1b11509b938db9156b324ec506",
+      "export_sha256": "c6797741c451c4f160222f582be4c66d63438f1b11509b938db9156b324ec506",
+      "selection": "complete file"
+    }
+  ]
+}

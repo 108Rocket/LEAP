@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "model": "TrajAgg",
+  "repository": "https://github.com/zhx66741/TrajAgg.git",
+  "commit": "f8e7f55391048459f25140265ed31ab8a3fe703b",
+  "git_tree": "d59bb93004cc0ec7e6598874ea5bc2105620e5d0",
+  "source_directory": "upstream",
+  "files": {
+    "Model/AggTransformer.py": {
+      "sha256": "82358e598544fea641a2f59ab4cb6b541ebb766b08b0c826ef1b5da191c7cf52",
+      "git_blob": "61333fa9f2da4a6cc01171d34a815db022d046b9",
+      "mode": "100644"
+    },
+    "Model/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "README.md": {
+      "sha256": "424c5e11646394b2f6c70b640ee9032c2bb7c0ba3d23b4fcefea5bec8d1b5e39",
+      "git_blob": "3efbd4e0e482ff81656fa3c86901fb7e01913e32",
+      "mode": "100644"
+    },
+    "dataset/geolife/preprocessing_geolife.py": {
+      "sha256": "17434d1c6d2c8d86760a6287ef663f5642fcb4cec109c91351a4b43fabacc5d9",
+      "git_blob": "15824681a23094fb2caad14c878579c8232bfcae",
+      "mode": "100644"
+    },
+    "dataset/porto/preprocessing_proto.py": {
+      "sha256": "cf351c8868c419091d4a3e9524572ea2a2c206e735288b312c9017e079d5efe4",
+      "git_blob": "f9642dfc2fff78026753196ac9c791b8dee71b75",
+      "mode": "100644"
+    },
+    "dataset/tdriver/preprocessing_tdriver.py": {
+      "sha256": "8614ddcaae08be41b969f22ce27e56aa491067d47f6f36feb5a7062877f994a4",
+      "git_blob": "8d84cb09be0568569393a0482528aa3d46b969cd",
+      "mode": "100644"
+    },
+    "main.py": {
+      "sha256": "cae5e2b298b68ac090ce5ae6cc23adf23066e2e4a53f3e65e55714b4cd67f5b1",
+      "git_blob": "4c9831008d70ff7ed4da9e2ee4ded6ffaae32888",
+      "mode": "100644"
+    },
+    "trainer.py": {
+      "sha256": "c9f5ace8d7cec507bde1cc47e9ac7af4aff006ad0a981089615eaefd7ea67eff",
+      "git_blob": "27f809a59c060198e7d24d08a2561476be576358",
+      "mode": "100644"
+    },
+    "utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "utils/cellspace.py": {
+      "sha256": "aa8328cc86f38b5203b7dc9a858474d97e57276af990ff8252b91e38c1801787",
+      "git_blob": "8621723209aed68ef28fa70188661af899c11520",
+      "mode": "100644"
+    },
+    "utils/dataloader.py": {
+      "sha256": "65b5660cef825e3738de141fbd1f32af05d79cd0a7c881082549f6a79a208c95",
+      "git_blob": "71d62698ff207c3a6ab7b930f5deba7ed32f5e13",
+      "mode": "100644"
+    },
+    "utils/loss.py": {
+      "sha256": "d98f277b6d30a5feb84a7124ba7a967609ac401e7b8d026cb67f8aa64866ea08",
+      "git_blob": "01b3f9508f3d0646738259cbec057066b178f3cb",
+      "mode": "100644"
+    },
+    "utils/similarity.py": {
+      "sha256": "5ddd3b967bd3a81207fe062b954761f3978e1571f0cfe5defa967a41ded57970",
+      "git_blob": "93d84c2e0659c3601ccce115155c31d6be710103",
+      "mode": "100644"
+    },
+    "utils/tools.py": {
+      "sha256": "607a78f0230fc48f004327fad104cbd00064e4ab59f297746bdb305130b7606e",
+      "git_blob": "7811a14ce9178e88ce7867f537327beb7cb98fa3",
+      "mode": "100644"
+    },
+    "utils/top_k.py": {
+      "sha256": "2aed65ac0c30644bcd999cda4cab1684f68f30d9df4e2d2c60d3a1e3e2a233d1",
+      "git_blob": "e12ff83a94fdb485b2cb295a85356a8ea97180cf",
+      "mode": "100644"
+    },
+    "readme": {
+      "sha256": "46f46b1c82405775834f9962a157a94326fdb630c15b7d582f55bc5667a2fe39",
+      "git_blob": "20ae742d6c5828b88b182707953529a5c7a60cca",
+      "mode": "100644"
+    }
+  },
+  "omitted": [],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

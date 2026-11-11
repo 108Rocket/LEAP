@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 02_field_geometry.svg 02_field_geometry -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.45in" height="2.09722in" viewBox="0 0 248.4 151"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#161616;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#161616;stroke:#161616;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#161616;font-family:Times New Roman;font-size:0.75em;font-style:italic}
+		.st5 {stroke:#ac2929;stroke-dasharray:7,5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st6 {stroke:#ac2929;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#ffffff;stroke:#161616;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st8 {fill:#ffffff;stroke:#161616;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.6}
+		.st9 {fill:#161616;font-family:Times New Roman;font-size:0.666664em}
+		.st10 {baseline-shift:-32.4939%;font-size:0.649878em}
+		.st11 {fill:#ac2929;font-family:Times New Roman;font-size:0.75em;font-style:italic}
+		.st12 {baseline-shift:-32.4951%;font-size:0.649902em}
+		.st13 {font-size:1em}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="4" v:index="2" v:groupContext="foregroundPage">
+		<title>02_field_geometry</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group18-1" transform="translate(64.6506,-92.6117)" v:mID="18" v:groupContext="group">
+			<title>A</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape" transform="translate(2,-7.075)">
+				<title>s0000_polyline</title>
+				<path d="M0 151 L57.35 122.33 L114.7 151" class="st1"/>
+			</g>
+			<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(-7.99361E-15,-5.075)">
+				<title>s0001_oval</title>
+				<ellipse cx="2" cy="149" rx="2" ry="2" class="st2"/>
+			</g>
+			<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(57.3494,-33.7497)">
+				<title>s0002_oval</title>
+				<ellipse cx="2" cy="149" rx="2" ry="2" class="st2"/>
+			</g>
+			<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(114.699,-5.075)">
+				<title>s0003_oval</title>
+				<ellipse cx="2" cy="149" rx="2" ry="2" class="st2"/>
+			</g>
+			<g id="shape5-11" v:mID="5" v:groupContext="shape" transform="translate(123.449,0)">
+				<title>s0004_text</title>
+				<desc>A</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="4.25" cy="143.925" width="8.51" height="14.15"/>
+				<rect x="0" y="136.85" width="8.5" height="14.15" class="st3"/>
+				<text x="1.5" y="146.17" class="st4" v:langID="1033"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>A</text>			</g>
+		</g>
+		<g id="group19-14" transform="translate(64.6506,-35.2623)" v:mID="19" v:groupContext="group">
+			<title>B</title>
+			<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(2,-7.075)">
+				<title>s0005_polyline</title>
+				<path d="M0 151 L114.7 151" class="st1"/>
+			</g>
+			<g id="shape7-18" v:mID="7" v:groupContext="shape" transform="translate(-7.99361E-15,-5.075)">
+				<title>s0006_oval</title>
+				<ellipse cx="2" cy="149" rx="2" ry="2" class="st2"/>
+			</g>
+			<g id="shape8-20" v:mID="8" v:groupContext="shape" transform="translate(114.699,-5.075)">
+				<title>s0007_oval</title>
+				<ellipse cx="2" cy="149" rx="2" ry="2" class="st2"/>
+			</g>
+			<g id="shape9-22" v:mID="9" v:groupContext="shape" transform="translate(123.449,0)">
+				<title>s0008_text</title>
+				<desc>B</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="4.25" cy="143.925" width="8.51" height="14.15"/>
+				<rect x="0" y="136.85" width="8.5" height="14.15" class="st3"/>
+				<text x="1.5" y="146.17" class="st4" v:langID="1033"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>B</text>			</g>
+		</g>
+		<g id="group20-25" transform="translate(69.4202,-4.925)" v:mID="20" v:groupContext="group">
+			<title>distances</title>
+			<g id="shape10-26" v:mID="10" v:groupContext="shape" transform="translate(-92.1064,-21.4506) rotate(-59.0362)">
+				<title>s0009_polyline</title>
+				<path d="M0 151 L33.44 151" class="st5"/>
+			</g>
+			<g id="shape11-29" v:mID="11" v:groupContext="shape" transform="translate(188.375,56.2383) rotate(90)">
+				<title>s0010_polyline</title>
+				<path d="M0 151 L57.35 151" class="st6"/>
+			</g>
+			<g id="shape12-32" v:mID="12" v:groupContext="shape" transform="translate(34.375,-91.7617)">
+				<title>s0011_polyline</title>
+				<path d="M6 148 L3 151 L0 148 L3 145 L6 148 Z" class="st7"/>
+			</g>
+			<g id="shape13-34" v:mID="13" v:groupContext="shape" transform="translate(37.375,-37.4123)">
+				<title>s0012_rect</title>
+				<rect x="0" y="146" width="5" height="5" class="st8"/>
+			</g>
+			<g id="shape14-36" v:mID="14" v:groupContext="shape" transform="translate(7.99361E-15,-80.3617)">
+				<title>s0013_text</title>
+				<desc>Probe cj</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.6875" cy="144.6" width="29.38" height="12.8"/>
+				<rect x="0" y="138.2" width="29.375" height="12.8" class="st3"/>
+				<text x="3.72" y="146.6" class="st9" v:langID="1033"><v:paragraph v:spLine="-1" v:horizAlign="2"/><v:tabList/>Probe c<tspan
+							dy="-0.279em" class="st10" v:baseFontSize="8">j</tspan></text>			</g>
+			<g id="shape15-40" v:mID="15" v:groupContext="shape" transform="translate(58.8298,-93.4217)">
+				<title>s0014_text</title>
+				<desc>aj(A)</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.75" cy="143.925" width="21.51" height="14.15"/>
+				<rect x="0" y="136.85" width="21.5" height="14.15" class="st3"/>
+				<text x="1.94" y="146.17" class="st11" v:langID="1033"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>a<tspan
+							dy="-0.279em" class="st12" v:baseFontSize="9">j</tspan><tspan dy="0.181em" class="st13">(A)</tspan></text>			</g>
+			<g id="shape16-45" v:mID="16" v:groupContext="shape" transform="translate(3.27259,-56.1446)">
+				<title>s0015_text</title>
+				<desc>bj(B)</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="10.75" cy="143.925" width="21.51" height="14.15"/>
+				<rect x="0" y="136.85" width="21.5" height="14.15" class="st3"/>
+				<text x="3.88" y="146.17" class="st11" v:langID="1033"><v:paragraph v:spLine="-1" v:horizAlign="2"/><v:tabList/>b<tspan
+							dy="-0.279em" class="st12" v:baseFontSize="9">j</tspan><tspan dy="0.181em" class="st13">(B)</tspan></text>			</g>
+			<g id="shape17-50" v:mID="17" v:groupContext="shape" transform="translate(10.7173,0)">
+				<title>s0016_text</title>
+				<desc>bj(B) − aj(A) ≤ H(A, B)</desc>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="44.0625" cy="143.925" width="88.13" height="14.15"/>
+				<rect x="0" y="136.85" width="88.125" height="14.15" class="st3"/>
+				<text x="2.44" y="146.17" class="st4" v:langID="1033"><v:paragraph v:spLine="-1" v:horizAlign="1"/><v:tabList/>b<tspan
+							dy="-0.279em" class="st12" v:baseFontSize="9">j</tspan><tspan dy="0.181em" class="st13">(B) </tspan>− a<tspan
+							dy="-0.279em" class="st12" v:baseFontSize="9">j</tspan><tspan dy="0.181em" class="st13">(A) </tspan>≤ H(A, B)</text>			</g>
+		</g>
+	</g>
+</svg>

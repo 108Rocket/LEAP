@@ -1,0 +1,24 @@
+README
+1. Dataset Preparation 📂
+
+Please first download the required dataset.
+Then use the data processing scripts provided in the dataset/ directory to complete the following steps:
+
+Data preprocessing
+
+Computing the ground-truth trajectory similarity (distance matrix)
+
+After processing, the necessary intermediate files for training and evaluation will be generated.
+
+2. Running the Main Program 🚀
+
+Before running the main program, make sure to update all file paths in the code to match your local environment (e.g., dataset paths, log paths, model save paths).
+Incorrect paths are the most common source of errors, so please double-check them carefully.
+
+Once the paths are properly configured, you may run the main script to start training, validation, and testing.
+
+Notes ⚠️
+
+Please carefully modify all file paths first, otherwise path-related errors may occur.
+
+If you encounter any difficult issues or unexpected behavior, feel free to leave a comment or open an issue—we are happy to help! 💬

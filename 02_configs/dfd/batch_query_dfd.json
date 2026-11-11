@@ -1,0 +1,6 @@
+{
+  "distance": "dfd",
+  "dfd_initial": "light",
+  "query_profile": "throughput",
+  "query_batch": 512
+}

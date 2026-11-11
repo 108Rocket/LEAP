@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "device": "cuda:0",
+  "threads": 4,
+  "output_root": "repo:14_logs",
+  "ui": {"manifest": "porto-ui.json", "port": 8789},
+  "datasets": {
+    "porto": {
+      "database": {"path": "data/porto.npz"},
+      "self_query": true,
+      "references": {
+        "hausdorff": {"path": "data/hausdorff.top100.npy", "format": "top_ids", "database_sha256": "REPLACE_WITH_GEOMETRY_SHA256"},
+        "dfd": {"path": "data/dfd.top100.npy", "format": "top_ids", "database_sha256": "REPLACE_WITH_GEOMETRY_SHA256"},
+        "dtw": {"path": "data/dtw.top100.npy", "format": "top_ids", "database_sha256": "REPLACE_WITH_GEOMETRY_SHA256"}
+      }
+    }
+  },
+  "jobs": {
+    "porto-hausdorff": {"dataset": "porto", "metric": "hausdorff", "candidate_search": "tree", "top_n": 20, "warmup": 1, "repeats": 3},
+    "porto-dfd": {"dataset": "porto", "metric": "dfd", "top_n": 20, "warmup": 1, "repeats": 3},
+    "porto-dtw": {"dataset": "porto", "metric": "dtw", "top_n": 20, "warmup": 1, "repeats": 3}
+  },
+  "training": {
+    "raw_inputs": "data/porto_raw.npz",
+    "hausdorff_teacher": "data/porto_hausdorff.pkl",
+    "trusted_teacher": false,
+    "seed": 2000
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "distance": "hausdorff",
+  "parameter_mode": "auto",
+  "top_k_profiles": {
+    "1": {
+      "initial_k": 50
+    },
+    "20": {
+      "initial_k": 50
+    },
+    "1000": {
+      "initial_k": 1000
+    }
+  }
+}

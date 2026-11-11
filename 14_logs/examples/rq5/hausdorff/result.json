@@ -1,0 +1,128 @@
+{
+  "metric": "hausdorff",
+  "k": 50,
+  "seed": 2000,
+  "budgets": [
+    125,
+    125
+  ],
+  "queries": 500,
+  "n": 1597579,
+  "baseline_full_initializer": "scan",
+  "baseline_ranking_initializer": "tree",
+  "ordered_ids_and_fp32_scores_equal": true,
+  "historical_outputs_equal": true,
+  "execution": {
+    "initializer": "tree-score-id-keys",
+    "query_batch_limit": 512,
+    "batches": 1,
+    "batch_splits": 0,
+    "top_k": 50,
+    "seed_k": 125,
+    "full_database": true
+  },
+  "full_scorer_survivors": 99037,
+  "asset_sha256": "5462200216abb3f8f47855c4eee0267f1ce05f689b0c1a7ad9d38f1fba7f0312",
+  "timings": [
+    {
+      "repeat": 0,
+      "mode": "legacy_full",
+      "ms": 777.2813942283392
+    },
+    {
+      "repeat": 0,
+      "mode": "tree_full",
+      "ms": 9.45226475596428
+    },
+    {
+      "repeat": 0,
+      "mode": "tree_ranking",
+      "ms": 3.398885950446129
+    },
+    {
+      "repeat": 0,
+      "mode": "legacy_ranking",
+      "ms": 3.403717651963234
+    },
+    {
+      "repeat": 1,
+      "mode": "legacy_full",
+      "ms": 777.2693950682878
+    },
+    {
+      "repeat": 1,
+      "mode": "tree_ranking",
+      "ms": 3.4127961844205856
+    },
+    {
+      "repeat": 1,
+      "mode": "legacy_ranking",
+      "ms": 3.417115658521652
+    },
+    {
+      "repeat": 1,
+      "mode": "tree_full",
+      "ms": 9.371491149067879
+    },
+    {
+      "repeat": 2,
+      "mode": "legacy_ranking",
+      "ms": 3.382105380296707
+    },
+    {
+      "repeat": 2,
+      "mode": "legacy_full",
+      "ms": 780.1428344100714
+    },
+    {
+      "repeat": 2,
+      "mode": "tree_full",
+      "ms": 9.458653628826141
+    },
+    {
+      "repeat": 2,
+      "mode": "tree_ranking",
+      "ms": 3.397354856133461
+    },
+    {
+      "repeat": 3,
+      "mode": "legacy_ranking",
+      "ms": 3.387065604329109
+    },
+    {
+      "repeat": 3,
+      "mode": "tree_ranking",
+      "ms": 3.375863656401634
+    },
+    {
+      "repeat": 3,
+      "mode": "legacy_full",
+      "ms": 779.207019135356
+    },
+    {
+      "repeat": 3,
+      "mode": "tree_full",
+      "ms": 9.560387581586838
+    },
+    {
+      "repeat": 4,
+      "mode": "tree_ranking",
+      "ms": 3.4309569746255875
+    },
+    {
+      "repeat": 4,
+      "mode": "tree_full",
+      "ms": 9.37766209244728
+    },
+    {
+      "repeat": 4,
+      "mode": "legacy_ranking",
+      "ms": 3.415636718273163
+    },
+    {
+      "repeat": 4,
+      "mode": "legacy_full",
+      "ms": 774.1165142506361
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "distance": "dtw",
+  "dtw_seed": "signal",
+  "dtw_routing": "learned",
+  "dtw_execution": "optimized",
+  "parameter_mode": "auto",
+  "top_k_profiles": {
+    "1": {
+      "initial_k": 20,
+      "initial_pool": 128
+    },
+    "20": {
+      "initial_k": 20,
+      "initial_pool": 128
+    },
+    "1000": {
+      "initial_k": 1000,
+      "initial_pool": 6400
+    }
+  }
+}

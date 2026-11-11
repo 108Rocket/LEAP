@@ -1,0 +1,5 @@
+{
+  "status": "trained",
+  "asset": "<HOST_PATH>/final_asset.json",
+  "test_evaluation_pending": true
+}

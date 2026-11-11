@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "seed": 2000,
+  "metric": "hausdorff",
+  "all_500_ordered_outputs_equal": true,
+  "exhaustive_calls": 798789500,
+  "samples": 10
+}

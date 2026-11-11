@@ -1,0 +1,29 @@
+{
+  "historical_example": true,
+  "source_task": "20261011-1804-current-ablation-refresh",
+  "scope": "Historical 100K Porto level ablation, seed2000. Original ablation timings, not newly retimed Full.",
+  "redactions": "Machine-specific absolute path strings and GPU UUID strings only. Numeric values are unchanged.",
+  "records": [
+    {
+      "file": "result.json",
+      "source_file": "RESULT.json",
+      "source_sha256": "d73e902961a05aa1c4639d8f85702cb35f603133a6edb8d624cc6b9c1a79654f",
+      "export_sha256": "3661b71a1a8b484afaf8433e75bcd9b49cdf84e932ca7aaae43b8857111382f0",
+      "selection": "complete file"
+    },
+    {
+      "file": "timings.json",
+      "source_file": "TIMINGS.json",
+      "source_sha256": "c106b989adf1ea2f7a0c2fd147a13606395f78e477b99fc289d94d1faeacea48",
+      "export_sha256": "c106b989adf1ea2f7a0c2fd147a13606395f78e477b99fc289d94d1faeacea48",
+      "selection": "complete file"
+    },
+    {
+      "file": "all_done.json",
+      "source_file": "ALL_DONE.json",
+      "source_sha256": "233acd92ff47a3cbec3e9e91cab9f53dba892726c013b8e463d8c3b75f266e84",
+      "export_sha256": "233acd92ff47a3cbec3e9e91cab9f53dba892726c013b8e463d8c3b75f266e84",
+      "selection": "complete file"
+    }
+  ]
+}

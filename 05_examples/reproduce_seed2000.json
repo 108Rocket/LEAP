@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "device": "cuda:0",
+  "threads": 4,
+  "output_root": "repo:14_logs",
+  "datasets": {
+    "sdd.geolife": {
+      "database": "repo:04_data/sdd/geolife/entrance_cache/database.npz",
+      "queries": "repo:04_data/sdd/geolife/entrance_cache/queries.npz",
+      "self_query": false
+    },
+    "100k.porto": {
+      "database": "repo:04_data/100k/porto/database.npz",
+      "self_query": true
+    },
+    "sdd.porto": {
+      "database": "repo:04_data/sdd/porto/database.npz",
+      "self_query": false,
+      "queries": "repo:04_data/sdd/porto/queries.npz"
+    }
+  },
+  "jobs": {
+    "sdd.geolife.hausdorff": {
+      "dataset": "sdd.geolife",
+      "metric": "hausdorff",
+      "profile": "repo:02_configs/hausdorff/batch_query_pointset_hd.json",
+      "asset": "repo:03_checkpoints/seed2000/sdd/geolife/hausdorff/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3
+    },
+    "100k.porto.dfd": {
+      "dataset": "100k.porto",
+      "metric": "dfd",
+      "profile": "repo:02_configs/dfd/batch_query_dfd.json",
+      "asset": "repo:03_checkpoints/seed2000/100k/porto/dfd/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3
+    },
+    "100k.porto.dtw": {
+      "dataset": "100k.porto",
+      "metric": "dtw",
+      "profile": "repo:02_configs/dtw/batch_query_dtw.json",
+      "asset": "repo:03_checkpoints/seed2000/100k/porto/dtw/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3,
+      "routing_asset": "repo:03_checkpoints/seed2000/100k/porto/dtw/router.json"
+    },
+    "100k.porto.hausdorff": {
+      "dataset": "100k.porto",
+      "metric": "hausdorff",
+      "profile": "repo:02_configs/hausdorff/batch_query_hausdorff.json",
+      "asset": "repo:03_checkpoints/seed2000/100k/porto/hausdorff/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3
+    },
+    "sdd.porto.dfd": {
+      "dataset": "sdd.porto",
+      "metric": "dfd",
+      "profile": "repo:02_configs/dfd/batch_query_dfd.json",
+      "asset": "repo:03_checkpoints/seed2000/sdd/porto/dfd/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3
+    },
+    "sdd.porto.dtw": {
+      "dataset": "sdd.porto",
+      "metric": "dtw",
+      "profile": "repo:02_configs/dtw/batch_query_dtw.json",
+      "asset": "repo:03_checkpoints/seed2000/sdd/porto/dtw/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3,
+      "routing_asset": "repo:03_checkpoints/seed2000/sdd/porto/dtw/router.json"
+    },
+    "sdd.porto.hausdorff": {
+      "dataset": "sdd.porto",
+      "metric": "hausdorff",
+      "profile": "repo:02_configs/hausdorff/batch_query_pointset_hd.json",
+      "asset": "repo:03_checkpoints/seed2000/sdd/porto/hausdorff/asset.json",
+      "top_n": 20,
+      "warmup": 1,
+      "repeats": 3
+    }
+  },
+  "training": {
+    "seed": 2000
+  }
+}

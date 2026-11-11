@@ -1,0 +1,51 @@
+{
+  "format": "historical settings extract, not a runnable CLI job",
+  "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+  "settings": {
+    "seed": 2000,
+    "metric": "hausdorff",
+    "sizes": [
+      100000,
+      1597579
+    ],
+    "k": 20,
+    "effective_settings": [
+      {
+        "k": 20,
+        "s": 50,
+        "pool": 50,
+        "pool_parameter": null,
+        "full_large_k": false,
+        "query_batch": 512,
+        "full_query_batch_limit": 512,
+        "ranking_return_count": 20,
+        "ranking_large_k": false,
+        "ranking_hd_tree_or_dense": "tree"
+      },
+      {
+        "k": 20,
+        "s": 50,
+        "pool": 50,
+        "pool_parameter": null,
+        "full_large_k": false,
+        "query_batch": 512,
+        "full_query_batch_limit": 512,
+        "ranking_return_count": 20,
+        "ranking_large_k": false,
+        "ranking_hd_tree_or_dense": "tree"
+      },
+      {
+        "k": 20,
+        "s": 50,
+        "pool": 50,
+        "pool_parameter": null,
+        "full_large_k": false,
+        "query_batch": 512,
+        "full_query_batch_limit": 512,
+        "ranking_return_count": 20,
+        "ranking_large_k": false,
+        "ranking_hd_tree_or_dense": "tree"
+      }
+    ]
+  }
+}

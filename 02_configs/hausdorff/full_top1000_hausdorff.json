@@ -1,0 +1,5 @@
+{
+  "distance": "hausdorff",
+  "full_large_k": true,
+  "hausdorff_target": "polyline"
+}

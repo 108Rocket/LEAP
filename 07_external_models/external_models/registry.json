@@ -1,0 +1,80 @@
+{
+  "ConvTraj": {
+    "runtime": "python",
+    "status": "author_source",
+    "category": "learned",
+    "paper_role": "main_baseline",
+    "interface": "learned/ConvTraj/interface.py"
+  },
+  "TrajCL": {
+    "runtime": "python",
+    "status": "author_source",
+    "category": "learned",
+    "paper_role": "main_baseline",
+    "interface": "learned/TrajCL/interface.py"
+  },
+  "MovSemCL": {
+    "runtime": "python",
+    "status": "author_source",
+    "category": "learned",
+    "paper_role": "main_baseline",
+    "interface": "learned/MovSemCL/interface.py"
+  },
+  "SIMformer": {
+    "runtime": "python",
+    "status": "author_source",
+    "category": "learned",
+    "paper_role": "main_baseline",
+    "interface": "learned/SIMformer/interface.py"
+  },
+  "TSMini": {
+    "runtime": "python",
+    "status": "author_source",
+    "category": "learned",
+    "paper_role": "main_baseline",
+    "interface": "learned/TSMini/interface.py"
+  },
+  "TrajAgg": {
+    "runtime": "python",
+    "status": "author_source",
+    "category": "learned",
+    "paper_role": "main_baseline",
+    "interface": "learned/TrajAgg/interface.py"
+  },
+  "LB-TrajRep": {
+    "runtime": "python",
+    "status": "author_implementation_missing",
+    "missing": [
+      "tools/landmark_embedding.py"
+    ],
+    "note": "The authors' pinned release does not provide tools/landmark_embedding.py.",
+    "category": "bounds",
+    "paper_role": "main_baseline",
+    "interface": "bounds/LB-TrajRep/interface.py"
+  },
+  "TraSS": {
+    "runtime": "java",
+    "status": "author_source",
+    "category": "exact",
+    "paper_role": "main_baseline",
+    "interface": "exact/TraSS/interface.py"
+  },
+  "TrajGAT": {
+    "runtime": "python",
+    "status": "optional_source_only",
+    "category": "optional",
+    "paper_role": "legacy_entry_not_reported"
+  },
+  "DITA": {
+    "runtime": "java",
+    "status": "optional_source_only",
+    "category": "optional",
+    "paper_role": "legacy_entry_not_reported"
+  },
+  "RePo": {
+    "runtime": "python",
+    "status": "optional_source_only",
+    "category": "optional",
+    "paper_role": "legacy_entry_not_reported"
+  }
+}

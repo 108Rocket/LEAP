@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "result_sha256": "d73e902961a05aa1c4639d8f85702cb35f603133a6edb8d624cc6b9c1a79654f",
+  "outputs": {
+    "no_ranking.npz": "e29b28e672523a9fca276c71e8c8ad6954551906eb754161af23eb2fe74685cd",
+    "full.npz": "d058b79f32cd5d115f942c3d735b4cf77d1d5375dff0e63df711bac1fc5bfba8",
+    "no_tbf.npz": "d058b79f32cd5d115f942c3d735b4cf77d1d5375dff0e63df711bac1fc5bfba8",
+    "no_gef.npz": "d058b79f32cd5d115f942c3d735b4cf77d1d5375dff0e63df711bac1fc5bfba8"
+  },
+  "completed": 1791715170.9954503
+}

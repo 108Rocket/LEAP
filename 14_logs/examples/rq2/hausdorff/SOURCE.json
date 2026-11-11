@@ -1,0 +1,36 @@
+{
+  "historical_example": true,
+  "source_task": "20261029-1918-leap-l20-gpu0-repaired-suite",
+  "scope": "Same-platform GPU exhaustive scan versus Full, seed2000. Historical five repeats.",
+  "redactions": "Machine-specific absolute path strings and GPU UUID strings only. Numeric values are unchanged.",
+  "records": [
+    {
+      "file": "summary.json",
+      "source_file": "SUMMARY.json",
+      "source_sha256": "489dd070b3bc1f2f96d8b277758b8377f200ba8d8037ce8e1271b675589cf606",
+      "export_sha256": "489dd070b3bc1f2f96d8b277758b8377f200ba8d8037ce8e1271b675589cf606",
+      "selection": "complete file"
+    },
+    {
+      "file": "samples.json",
+      "source_file": "SAMPLES.json",
+      "source_sha256": "14422b40f41ce53f48a01e9572a1f581d91265711ca9e65863fabb633fb8f243",
+      "export_sha256": "f42c0441ec53701621bd93c1ac91d8cb8cf7a9660cf1b9b85a28b86e2948ab9b",
+      "selection": "complete file"
+    },
+    {
+      "file": "done.json",
+      "source_file": "DONE.json",
+      "source_sha256": "c4283f2460a1e039fe3996f582777e15911eb0f24e720e2c217bab78f198d58b",
+      "export_sha256": "c4283f2460a1e039fe3996f582777e15911eb0f24e720e2c217bab78f198d58b",
+      "selection": "complete file"
+    },
+    {
+      "file": "block_gate.json",
+      "source_file": "BLOCK_GATE.json",
+      "source_sha256": "a1984d497b8f5704ea1ae5a1f9cfa9ad221d0db4464b6740e9b08c6d57cb773e",
+      "export_sha256": "a1984d497b8f5704ea1ae5a1f9cfa9ad221d0db4464b6740e9b08c6d57cb773e",
+      "selection": "complete file"
+    }
+  ]
+}

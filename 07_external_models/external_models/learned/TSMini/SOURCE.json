@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "model": "TSMini",
+  "repository": "https://github.com/changyanchuan/TSMini.git",
+  "commit": "1fac8436836fc5f03414c9d4fdcec8d2d5a3c4be",
+  "git_tree": "974fd0ba2e8022ee154c7172779fbf67c73a3c21",
+  "source_directory": "upstream",
+  "files": {
+    ".gitignore": {
+      "sha256": "7988a83c664473d74c1ce2d4d2970981909ca88a154e9869c463629d60c01b77",
+      "git_blob": "a44c1cb31a7f8307de2bbeb6273a08a55cfe0ad9",
+      "mode": "100644"
+    },
+    "config.py": {
+      "sha256": "55e51c194d0274d56634a6d1c88946df1db0919edae301d23d9ace899eaf0dd7",
+      "git_blob": "7f11ec198fdf7773a438863546c7c441ee606ef2",
+      "mode": "100644"
+    },
+    "data/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "exp/log/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "exp/result/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "exp/script/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "exp/snapshots/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "model/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "model/embeder.py": {
+      "sha256": "beb64b5a528dcbdb9590f92f7f9b448e3f828af44287c196c72bbccd3ab35379",
+      "git_blob": "08f24014ab0be124a64581b6676825bab6ab620f",
+      "mode": "100644"
+    },
+    "model/lambdaloss.py": {
+      "sha256": "2acf3878149643ca367834b88f14be951973e94c5e6a41e710b443c918b2910f",
+      "git_blob": "c8a00a7b74295827d6e86b4eb0c9b74b1a124802",
+      "mode": "100644"
+    },
+    "model/msa_llm.py": {
+      "sha256": "f00b5d341af79a82f63743e294ed71ba616d1d32ceb11e842f5ffc2b7bfe3a98",
+      "git_blob": "9d12adf03c28a0977b43e4a8f663f6c8642e1301",
+      "mode": "100644"
+    },
+    "model/tsmini.py": {
+      "sha256": "962fff9d69a2c6cc6e3e564fa9cbffdf5bd2a460e8e458d91f339dcdf1647c2e",
+      "git_blob": "68ca46212d3fbf5740d512f064ddc87eeeb1e089",
+      "mode": "100644"
+    },
+    "readme.md": {
+      "sha256": "0e9e4d2186e26c55fe006fa479b31105accacecb055bee39da1fc493a0fd54c2",
+      "git_blob": "4d7ea2738b2a57807ac2989b4fba0b04e0a74049",
+      "mode": "100644"
+    },
+    "requirements.txt": {
+      "sha256": "a7e3b395225a0b4c692105617fdb5780c6b25682aaab74c314bc12f8535c3bc4",
+      "git_blob": "e9116f5ffb43174550d03e54910564b8546eac1a",
+      "mode": "100644"
+    },
+    "task/trajsimi.py": {
+      "sha256": "e0a3779106a7dc145ae847d80e8c302ba180049e8ed8561e208989d6a43e1dad",
+      "git_blob": "06b8885e8a1b57278dba354b103583e35d5a068f",
+      "mode": "100644"
+    },
+    "train_trajsimi.py": {
+      "sha256": "6366b217052e0828d13687b849f51d61066d33647065e2fceedef8c6af75ef89",
+      "git_blob": "0915023279d73a7b152ac52d312db6cc732a46a5",
+      "mode": "100644"
+    },
+    "utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "utils/cellspace.py": {
+      "sha256": "b169f90e8ac3b5233758524b6cdaabdfde464ae84f6fe2a1f87a9663ae737b24",
+      "git_blob": "2907f6ad80027ef539906ee2994d90e873f30066",
+      "mode": "100644"
+    },
+    "utils/data_loader.py": {
+      "sha256": "cd5e9d18e05e72b91d86b0fe0258f241bfa19394b5a4c2755a52cd36abeea1ea",
+      "git_blob": "614bab67764def5cf5637ef0983861c62d7ebb94",
+      "mode": "100644"
+    },
+    "utils/tool_funcs.py": {
+      "sha256": "21b2158f4c91a900bf8ad945eede5a2d989ec4c3f8e9defa08b004dc6b39d78f",
+      "git_blob": "d4a569035072f4526aa47150885e563424a2489a",
+      "mode": "100644"
+    },
+    "utils/traj.py": {
+      "sha256": "b8026703b7ecfaa154ffbe988c88eb2b075ed8b75fe30c96862698e5b4158605",
+      "git_blob": "a1be269c40f46a79fe7f4968922ebb419d8deaf4",
+      "mode": "100644"
+    }
+  },
+  "omitted": [],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

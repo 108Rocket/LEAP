@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "model": "SIMformer",
+  "repository": "https://github.com/SUSTC-ChuangYANG/SIMformer.git",
+  "commit": "ea3457d78390b06f5802e73931dec839d18172f8",
+  "git_tree": "3a492684f29c214af07c96675d8a9b84ac442880",
+  "source_directory": "upstream",
+  "files": {
+    ".gitignore": {
+      "sha256": "f670f76e24578b47cc873f6c269ac703f998a1030ad470d31cb16e42280ddd42",
+      "git_blob": "d3028965a9fdc7d16de2fa3fcbf882764af5c08d",
+      "mode": "100644"
+    },
+    "README.md": {
+      "sha256": "a1e725d23e036d0484de3536c19a7447d83cd78f8def32cedd07464fffd3160a",
+      "git_blob": "b895aab93b305d99cc9d4662eca59cf878ae6923",
+      "mode": "100644"
+    },
+    "config.py": {
+      "sha256": "9b025f1b53e43b12fcea20cfd3e8e49090a6c3d230bf9e2d3d3b6d885bb5b37e",
+      "git_blob": "0f6350497da2957606e318e6c8a30c92551456d3",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/ais/data_cleaning_ais.py": {
+      "sha256": "fb66efef10adc2e77fd4426e376e59c89fdeb807439cca75ea0b5f1a28bc4131",
+      "git_blob": "879f52c2ac2adbe13740017a82410c636faf74ad",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/data_samping.py": {
+      "sha256": "fc9ac381effcf4c24384234fd66b32621d3cbada523d194ae430182c11f9ff50",
+      "git_blob": "21289302f99086b209023fb985c5c8569ebf3f69",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/feature_construction.py": {
+      "sha256": "ec05ff693770597c7a0f9fc370114964e93205f62be47a800a0d9eac0b2e6cab",
+      "git_blob": "c773a806aeb3fcf5aa1ddc5302bc961a5fe2da42",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/geolife/data_cleaning_geolife.py": {
+      "sha256": "ab29dbff6ba0934d1fa37701059d764c394cdffc998c8d2a928aadbfb60b68e7",
+      "git_blob": "11d367cf6eafba45216220b19e8bb56d108affd1",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/porto/data_cleaning_porto.py": {
+      "sha256": "3aca1fabf968ca162cd9e89ab16563936ba0f8c95c73abec1b2be80979ef3fe1",
+      "git_blob": "2a29f9eb14188e095cbce1359fc3b8d2e116b1c2",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/readme.md": {
+      "sha256": "dd622e51c7e9581371bdfa5079bcbd8db2c9f6a15046f78651ccecdd69624c74",
+      "git_blob": "326fcd8f232e5788e16033ec5276efbca6346b3b",
+      "mode": "100644"
+    },
+    "data/data_preprocessing/tdrive/data_cleaning_tdrive.py": {
+      "sha256": "31561f4af4c2e9f1f5bced4fc951e8ac2a695dbd54ca44754c7a8cb074dabca1",
+      "git_blob": "cb3af7267fd7ca8479868fe07ce69942e3166458",
+      "mode": "100644"
+    },
+    "main.py": {
+      "sha256": "215f3e674f86694beba9eac0fb2791d936bb9b5d020c561ff86f9b5879812e90",
+      "git_blob": "29979fcc687a43f7ef6f0e58d1097458e441521b",
+      "mode": "100644"
+    },
+    "simformer/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "simformer/dataloader.py": {
+      "sha256": "b087f84d60ff17be76261331e36fe351955b71166706af9be4685c7ba8a1a853",
+      "git_blob": "9ce92bdee0c13ca6756e8beeb29d8d8e254f2601",
+      "mode": "100644"
+    },
+    "simformer/loss.py": {
+      "sha256": "bbd726318536684f605f46f824a954458d4940ac82649c795d231e0426e3241b",
+      "git_blob": "9015519bf409085591838688b0dc6f8f5f2ee965",
+      "mode": "100644"
+    },
+    "simformer/model.py": {
+      "sha256": "e51d786cb8c2728819e66c294d9d05a1f6f41974a4bba562c65ad94526fdb06c",
+      "git_blob": "f2fbee99547720ef5a85a88c020b4c3149bf7657",
+      "mode": "100644"
+    },
+    "simformer/pos_encoding.py": {
+      "sha256": "d2579677ac560574f1fec6b4f7f599fd4e68ef7a0a1d248b302a4e6970f3fef3",
+      "git_blob": "e5b84c9de0373fd5078055f6bb1fe320d6ed9356",
+      "mode": "100644"
+    },
+    "simformer/trainer.py": {
+      "sha256": "54248dec245b21bcc5107dd10608b4e7a861ae0fe48cdd9cc05d855f1b87103c",
+      "git_blob": "1ee344b24b63182fafbb0a7dce675683f979ee2e",
+      "mode": "100644"
+    },
+    "utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "utils/distance_calculator/batch_distance.py": {
+      "sha256": "bb920d20adf6828d6b5ad3f3e8a4528cbd41242204c5c67b13f8397531410b83",
+      "git_blob": "a4bf4246626ea7e2a7020b6211ecd1e1e7157cd5",
+      "mode": "100644"
+    },
+    "utils/distance_calculator/tester.py": {
+      "sha256": "1f728bbd6767a1cc8ea8a0e580411144b64c87446592c224cde21af7cd9da685",
+      "git_blob": "39d744c29fa3f05f64a26812a674d43991f0255a",
+      "mode": "100644"
+    },
+    "utils/distance_calculator/utils.py": {
+      "sha256": "4a07e4fc9c66e7bf94fcde8dd4cf188c84a9d904f3ce95550fb1ad1db825d5a8",
+      "git_blob": "e4fa94d928b34c16d0856251208dfd2a441a9351",
+      "mode": "100644"
+    },
+    "utils/similarity.py": {
+      "sha256": "ca084d2a6243df423a9da163db84486ab4598bcada64de582144e75a2741308d",
+      "git_blob": "cea245cc134c527ac7e6bd9982eb8b0c1f5b3aa6",
+      "mode": "100644"
+    },
+    "utils/tools.py": {
+      "sha256": "e50b6e41cd4cae0ae4fe813b9e3fceb9e1b26615c2cfdc3762cd5603ae254071",
+      "git_blob": "33dcff46698d62c3686b603474363959f14aeca6",
+      "mode": "100644"
+    },
+    "utils/top_k.py": {
+      "sha256": "12938ca6e34e01dd4c529321b7fee48793e9516b4076eef844601546331d2e22",
+      "git_blob": "ce79c8ba533879e037b40912cabcf77b2ca1bb79",
+      "mode": "100644"
+    }
+  },
+  "omitted": [
+    {
+      "path": "additional_results/simformer_additional_results.pdf",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/data_preprocessing/ais/data_preprocessing.log",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/data_preprocessing/geolife/data_preprocessing.log",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/data_preprocessing/porto/data_preprocessing.log",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/data_preprocessing/tdrive/data_preprocessing.log",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/dataset/ais/traj_vis.ipynb",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/dataset/geolife/traj_vis.ipynb",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/dataset/porto/traj_vis.ipynb",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "data/dataset/tdrive/traj_vis.ipynb",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    },
+    {
+      "path": "images/framework_simformer.png",
+      "reason": "dataset, checkpoint, binary, media, log or supplementary output"
+    }
+  ],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

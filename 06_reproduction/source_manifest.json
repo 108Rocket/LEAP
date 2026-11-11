@@ -1,0 +1,62 @@
+{
+  "scope": "Paper learning sources with canonical LEAP import paths",
+  "training_executed": false,
+  "portable_launcher_verified": false,
+  "files": [
+    {
+      "path": "training_sources/diagnostic_kernel.py",
+      "sha256": "539d196b8498c2db8af88befeba954793696be4e94a4a442173614f2f3b0f01c",
+      "original_sha256": "539d196b8498c2db8af88befeba954793696be4e94a4a442173614f2f3b0f01c",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/learned_fields.py",
+      "sha256": "4f8a11521fb576b02f34bda724b9205e639cec361d7edd001b0890c06888d89f",
+      "original_sha256": "cd02a8dcc499a90ba3ed9c7af9ff9cc41d66f9a8f1b4325d3f918e32bf54ea4f",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/phase1_train.py",
+      "sha256": "536f3093bc2a999cdb032265c2645ba0cd090b29a19f909aa37d4fd9cd889312",
+      "original_sha256": "f7ac7090eeb72233d373d4afd5ef34f4cdc1e87e8c7f17c722c03657214300ad",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/phase2_train.py",
+      "sha256": "68a3634cee4d361459801caf38ac0643ed3be803b072cca513cfa09ac23e6ccb",
+      "original_sha256": "a49c6ddb4a94e77758d614e82a418fce89ce16265f8ac518d9585f0c3263e3d5",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/place.py",
+      "sha256": "fdcbfc56e462673dcfd2651232edd5f05b07b561757e22db0c954be2ffb794f9",
+      "original_sha256": "aace98ad9eb865ea06592514c6bc6960886cc856df470bf25d0eac5f9a45847f",
+      "import_paths_updated": true,
+      "path_adaptation": "No default server paths; public adapter injects ROOT, RAW, and TEACHER"
+    },
+    {
+      "path": "training_sources/select_probes.py",
+      "sha256": "77fcb1f9f919a43fbca3c9653fe959496664715565b8d655d3750004ad232d6a",
+      "original_sha256": "427952598d6cc159fb543fd0a610954561bb9382cd5a3909fddadd04f8678e5e",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/sdd/sdd_dfd_train.py",
+      "sha256": "ff7b8f043d1a0f23db770ab9ed58ef8b853b9d1e31840fb8a3b4c001799695c3",
+      "original_sha256": "f721d08b3649259073f17dfeb3ae5c466198cea86bd1a372da4771dec4d531c2",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/sdd/sdd_point_fields.py",
+      "sha256": "7cb32fea3b74bfac3a6fe7ed571dac2e4451b99ea346690d22e506ad8c0d695c",
+      "original_sha256": "6593c27922726d42c0b4d11d9b76f0c69df15e4b49889cabd31c3c247d0edbec",
+      "import_paths_updated": true
+    },
+    {
+      "path": "training_sources/sdd/sdd_probe_train.py",
+      "sha256": "30a42fb3e0c569904caa0561e26f0c972bc748ad841a752163486cba21da9e55",
+      "original_sha256": "da4d7a434968a0e1e84e11518a5266fee60faf41657048546865847a3c82ab45",
+      "import_paths_updated": true
+    }
+  ]
+}

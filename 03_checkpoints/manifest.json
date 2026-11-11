@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "seed": 2000,
+  "format": "JSON inference parameters",
+  "checkpoints": [
+    {
+      "id": "sdd.geolife.hausdorff",
+      "seed": 2000,
+      "benchmark": "SDD",
+      "city": "Geolife",
+      "distance": "hausdorff",
+      "target": "pointset",
+      "asset": "03_checkpoints/seed2000/sdd/geolife/hausdorff/asset.json",
+      "asset_sha256": "3505df3968321c935dd69239d0af8de745ac94c698ab2335206fa8fd7ef40325",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "SDD_Geolife.hausdorff.s2000",
+          "city": "Geolife",
+          "seed": 2000
+        },
+        "source_run": "20261007-1555-sdd-pointset-hd-retrain",
+        "asset_sha256": "3505df3968321c935dd69239d0af8de745ac94c698ab2335206fa8fd7ef40325"
+      }
+    },
+    {
+      "id": "100k.porto.dfd",
+      "seed": 2000,
+      "benchmark": "100K",
+      "city": "Porto",
+      "distance": "dfd",
+      "target": "dfd",
+      "asset": "03_checkpoints/seed2000/100k/porto/dfd/asset.json",
+      "asset_sha256": "fc55523c41e69af2fe8e86c0617ca6bb86c58b00c84e62262106b8b1bc468e1f",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "100K_Porto.dfd.s2000",
+          "workload": "100K_Porto.dfd",
+          "seed": 2000
+        },
+        "source_run": "20261005-1356-three-seed-miss-retrain",
+        "asset_sha256": "fc55523c41e69af2fe8e86c0617ca6bb86c58b00c84e62262106b8b1bc468e1f"
+      }
+    },
+    {
+      "id": "100k.porto.dtw",
+      "seed": 2000,
+      "benchmark": "100K",
+      "city": "Porto",
+      "distance": "dtw",
+      "target": "dtw",
+      "asset": "03_checkpoints/seed2000/100k/porto/dtw/asset.json",
+      "asset_sha256": "7b8c4f868d8e8b1e57e3da218d945b1ebabe520049d2383a495f4e129c9e6c06",
+      "router": "03_checkpoints/seed2000/100k/porto/dtw/router.json",
+      "router_sha256": "684c835456b27dd179779de7e6b55b9a48d412598deb04ee80d4287a6b45e71c",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "100K_Porto.dtw.s2000",
+          "workload": "100K_Porto.dtw",
+          "seed": 2000
+        },
+        "source_run": "20261005-1356-three-seed-miss-retrain",
+        "asset_sha256": "5c0264ba6b2e571ff36fe2c02355fef599910959c529113a8df40c9a411b2048",
+        "router_sha256": "cdcc0408ccaaad5dd7d7823165e0e9e9e90805e12129997eac04cb77b676cf3e"
+      }
+    },
+    {
+      "id": "100k.porto.hausdorff",
+      "seed": 2000,
+      "benchmark": "100K",
+      "city": "Porto",
+      "distance": "hausdorff",
+      "target": "polyline",
+      "asset": "03_checkpoints/seed2000/100k/porto/hausdorff/asset.json",
+      "asset_sha256": "8f257b6450001805fc3e73aec130e457332701e680687a9100cd2d380bad38b3",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "100K_Porto.hausdorff.s2000",
+          "workload": "100K_Porto.hausdorff",
+          "seed": 2000
+        },
+        "source_run": "20261005-1356-three-seed-miss-retrain",
+        "asset_sha256": "8f257b6450001805fc3e73aec130e457332701e680687a9100cd2d380bad38b3"
+      }
+    },
+    {
+      "id": "sdd.porto.dfd",
+      "seed": 2000,
+      "benchmark": "SDD",
+      "city": "Porto",
+      "distance": "dfd",
+      "target": "dfd",
+      "asset": "03_checkpoints/seed2000/sdd/porto/dfd/asset.json",
+      "asset_sha256": "7a81f95d5247d738e3446d65eccf5b01e1af2e7e8d0a9c5dcd342412d108dc4c",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "SDD_Porto.dfd.s2000",
+          "workload": "SDD_Porto.dfd",
+          "seed": 2000
+        },
+        "source_run": "20261005-1356-three-seed-miss-retrain",
+        "asset_sha256": "7a81f95d5247d738e3446d65eccf5b01e1af2e7e8d0a9c5dcd342412d108dc4c"
+      }
+    },
+    {
+      "id": "sdd.porto.dtw",
+      "seed": 2000,
+      "benchmark": "SDD",
+      "city": "Porto",
+      "distance": "dtw",
+      "target": "dtw",
+      "asset": "03_checkpoints/seed2000/sdd/porto/dtw/asset.json",
+      "asset_sha256": "a1a05a9b8bdbd07120ff23d82818fe8562f287abc92d1611fc5f801707db476f",
+      "router": "03_checkpoints/seed2000/sdd/porto/dtw/router.json",
+      "router_sha256": "dca6ccd294baeae22a830f47221da9f700e8762c406152822ca49fdd2c762363",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "SDD_Porto.dtw.s2000",
+          "workload": "SDD_Porto.dtw",
+          "seed": 2000
+        },
+        "asset_sha256": "d8b59b0bcd0a9388a95ba5963ce1875d5f709b058508d69fd99913851bd4dbac",
+        "router_sha256": "e86ea070d7bdf447e4d0d05571e5c70b1b261a8a34d7717073d708684c298aa1",
+        "stages": [
+          {
+            "complete": true,
+            "job": {
+              "id": "SDD_Porto.dtw.s2000",
+              "workload": "SDD_Porto.dtw",
+              "seed": 2000
+            },
+            "source_run": "20261005-1356-three-seed-miss-retrain",
+            "asset_sha256": "9c60648e6df1a67eb5a3da471e910eaf6966182b26075961008f45e328afc0e1",
+            "router_sha256": "e86ea070d7bdf447e4d0d05571e5c70b1b261a8a34d7717073d708684c298aa1"
+          },
+          {
+            "complete": true,
+            "stage": "radial_and_ordered_filters",
+            "seed": 2000,
+            "source_run": "20261110-1542-dtw-filter-training-l20",
+            "source_checkpoint_sha256": "17db841ac98a6903d88c713323f6e3490851380fb512adbb2677ab946702012c",
+            "input_asset_sha256": "9c60648e6df1a67eb5a3da471e910eaf6966182b26075961008f45e328afc0e1",
+            "train_input_sha256": "2bb9c2b80ac27fa08f65aab59cf39b713447eb9d0291b52205d745dacc96e02c",
+            "teacher_sha256": "76079b8f93562db13c64b1f316ef2ff1154d8cb0e67a4837fbf1df11d6d2f3fd",
+            "training_trajectories": 2346,
+            "sampling_rounds": 50,
+            "steps_per_round": 74,
+            "updates": 3700,
+            "batch_pairs": 256,
+            "optimizer": "Adam",
+            "learning_rate": 0.002,
+            "initialization": "First16 verified training-only LB pivots, both branches; jointly trained thereafter",
+            "initial_positions_sha256": "bcb5ba34a7c1ccd7a415d4c1d5141ae328ebd454d521fc55d216dfe9d3774918",
+            "objective": "Residual-weighted guarded bound hinge, 0.5 incumbent protection, 0.05 per-branch hinges",
+            "work_weight": "sqrt(length product), clipped0.5..4; estimated training proxy, not actual DP count",
+            "selection": "fixed final epoch50; no test-based selection",
+            "test_used": false,
+            "unchanged": "Index anchors, normalization, signal probes, router, summary dimensions and search rules"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sdd.porto.hausdorff",
+      "seed": 2000,
+      "benchmark": "SDD",
+      "city": "Porto",
+      "distance": "hausdorff",
+      "target": "pointset",
+      "asset": "03_checkpoints/seed2000/sdd/porto/hausdorff/asset.json",
+      "asset_sha256": "5462200216abb3f8f47855c4eee0267f1ce05f689b0c1a7ad9d38f1fba7f0312",
+      "training_receipt": {
+        "complete": true,
+        "job": {
+          "id": "SDD_Porto.hausdorff.s2000",
+          "city": "Porto",
+          "seed": 2000
+        },
+        "source_run": "20261007-1555-sdd-pointset-hd-retrain",
+        "asset_sha256": "5462200216abb3f8f47855c4eee0267f1ce05f689b0c1a7ad9d38f1fba7f0312"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "model": "TrajCL",
+  "repository": "https://github.com/changyanchuan/TrajCL.git",
+  "commit": "fbc98f58c8b46135bf2507cd83c9a1e96ede0ff3",
+  "git_tree": "d7bbd8a81ebf61436404883fdc92663027b48ab2",
+  "source_directory": "upstream",
+  "files": {
+    ".gitignore": {
+      "sha256": "8ff56b86d45eb22021567234203cd6b46a12ed38852951d64c6ba8ce3ebc340f",
+      "git_blob": "d212a334201a49c908c1b10e7f1452ddb94e7e7f",
+      "mode": "100644"
+    },
+    "config.py": {
+      "sha256": "c4caa4759f650a4dc8861c1475d4d9da80309d492f717adbac71d1161c60f2d7",
+      "git_blob": "df9b433ee27089611b248c329d9a7e266808254c",
+      "mode": "100644"
+    },
+    "data/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "exp/log/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "exp/snapshots/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "model/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "model/dual_attention.py": {
+      "sha256": "9f0e7dd3d80f70ed2258bf34ee818bcb000e46e3dace5bb6f966fb7aedfae923",
+      "git_blob": "8e1607f40460dd0395a551379c10e6d41d481aff",
+      "mode": "100644"
+    },
+    "model/moco.py": {
+      "sha256": "7592838c355b59c764812ead445f40b31b74d40fe043b381261f055f6ade0dc7",
+      "git_blob": "fd02eff933313e48fa7d988b6356ef467247a365",
+      "mode": "100644"
+    },
+    "model/node2vec_.py": {
+      "sha256": "a5b0c1f3828aa894ad573d1b5f73235c13569cd1e2fa726b65e5575819e5195d",
+      "git_blob": "a56843bc1db41bacbac396db1714ee372e7af212",
+      "mode": "100644"
+    },
+    "model/trajcl.py": {
+      "sha256": "de7de5187a05f845d72bc9adf9fe70d1e3c448053b1b892057e461acf59d64c5",
+      "git_blob": "b5d2f67ef97340091a4e5ad8e8c732f99ff2ce4c",
+      "mode": "100644"
+    },
+    "readme.md": {
+      "sha256": "cf6944fc787163be65bb3657446b1b95a2318bb4068fcad3b9d10d22f5b7ba8d",
+      "git_blob": "9af6ce0464441fc233fcdf7df80ae488a6d5ff61",
+      "mode": "100644"
+    },
+    "requirements.txt": {
+      "sha256": "8de58bda880abeaa2ac264bd62b53a28606c4191bbcc72d8d3d0c7c117fb6a03",
+      "git_blob": "34efe0b0357a707ab92dabdc3d429988c2e85bc7",
+      "mode": "100644"
+    },
+    "task/trajsimi.py": {
+      "sha256": "33dbcb881cc903140f4cb1932cc74fe020d75f5888977719d0a136b222e30ba4",
+      "git_blob": "bd14d1ef731f7645e15b64d55ba3a99e8483e316",
+      "mode": "100644"
+    },
+    "train.py": {
+      "sha256": "41dd216d00e463bba50d716086747749792caf848e710d4edc7bd0a26cc6ee20",
+      "git_blob": "fc6d4e2b50ff2101af500953702b93be0b2ac1f1",
+      "mode": "100644"
+    },
+    "train_trajsimi.py": {
+      "sha256": "ce633691beb90eed76d156c61a836c15959ddda1f32a53ba749b68ae95c4c955",
+      "git_blob": "789d66143d873a1175c667aecface8d6e39f5a27",
+      "mode": "100644"
+    },
+    "utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644"
+    },
+    "utils/cellspace.py": {
+      "sha256": "2ded15109508a98c87feea043b152c67e2ede74b0f874438f06048c6ea2efccc",
+      "git_blob": "043712f9b6903474c11e64d82fc8ad6782080b0e",
+      "mode": "100644"
+    },
+    "utils/data_loader.py": {
+      "sha256": "b4e453d2458a3cc31708090d18fb3dadffe41fb1bd59959aa2b11280da2354be",
+      "git_blob": "aed5efea237743711cfc7d7d3f3f6bd24c482556",
+      "mode": "100644"
+    },
+    "utils/edwp.py": {
+      "sha256": "9840743766ad84ea20221f87974f32e99fbb2a0e1fd59876d110c13e2757ae71",
+      "git_blob": "a981f29ba47437966855972b41a7dd58be5c45d7",
+      "mode": "100644"
+    },
+    "utils/edwp.pyx": {
+      "sha256": "73b0797a4359f96d50a73ffa83f43183448911ba72928ae0d4ef80115c4a7798",
+      "git_blob": "d4fee1c0076843c0b3517ff798ad8489d71cb7f7",
+      "mode": "100644"
+    },
+    "utils/preprocessing_porto.py": {
+      "sha256": "5a4181d5af93daf675ee537165dae93dbfdbe89ab0cb08cf697d3e9bd6f48339",
+      "git_blob": "ae02f103338b55f80c8f2c17ee368e1e21216cc7",
+      "mode": "100644"
+    },
+    "utils/rdp.py": {
+      "sha256": "c31796cd969b9db9bd68a1e5f22e0429fdc1517188d417d3743bc3bd4e8d1211",
+      "git_blob": "9329f82e550d496c24738502332f63774bc61b60",
+      "mode": "100644"
+    },
+    "utils/setup.py": {
+      "sha256": "75a901fc260d831ffeefba34511d62d220b8b4b6895cfe586085fa9c4e59c00e",
+      "git_blob": "240ddd1198203ca43698cb65cbf18f8f37fca684",
+      "mode": "100644"
+    },
+    "utils/tool_funcs.py": {
+      "sha256": "cf341a6ab5bf3ad2406b927957dab153942e157e305e6d4a1013966d090cc48b",
+      "git_blob": "b8a46f6cc7514af3d257f024d8cfc5d64c53f629",
+      "mode": "100644"
+    },
+    "utils/traj.py": {
+      "sha256": "156e7d3dd7f61472c83c987ffe7724d6c8ac74d3b16e88bfd0ac12ab30b96727",
+      "git_blob": "a57bf2eab3f20629d0df15a09c4da8d7c2c9a93e",
+      "mode": "100644"
+    }
+  },
+  "omitted": [],
+  "original_implementation_modified": false,
+  "license_files": [],
+  "licensing": "Upstream authors retain their rights; not covered by the LEAP Apache license"
+}

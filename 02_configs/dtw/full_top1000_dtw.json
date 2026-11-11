@@ -1,0 +1,8 @@
+{
+  "distance": "dtw",
+  "dtw_seed": "signal",
+  "dtw_pool": 6400,
+  "dtw_routing": "learned",
+  "dtw_execution": "optimized",
+  "full_large_k": true
+}

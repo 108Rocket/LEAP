@@ -1,0 +1,25 @@
+{
+  "format": "historical settings extract, not a runnable CLI job",
+  "source_task": "20261030-1110-large-k-tree-adaptation/attempt9",
+  "settings": {
+    "metric": "hausdorff",
+    "k": 50,
+    "seed": 2000,
+    "budgets": [
+      125,
+      125
+    ],
+    "queries": 500,
+    "n": 1597579,
+    "execution": {
+      "initializer": "tree-score-id-keys",
+      "query_batch_limit": 512,
+      "batches": 1,
+      "batch_splits": 0,
+      "top_k": 50,
+      "seed_k": 125,
+      "full_database": true
+    },
+    "asset_sha256": "5462200216abb3f8f47855c4eee0267f1ce05f689b0c1a7ad9d38f1fba7f0312"
+  }
+}

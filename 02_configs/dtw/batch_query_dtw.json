@@ -1,0 +1,9 @@
+{
+  "distance": "dtw",
+  "dtw_seed": "signal",
+  "dtw_pool": 128,
+  "dtw_routing": "learned",
+  "dtw_execution": "optimized",
+  "query_profile": "throughput",
+  "query_batch": 2000
+}

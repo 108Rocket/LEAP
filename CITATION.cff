@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite LEAP when using this implementation."
+type: software
+title: "LEAP: Learned Probes for Exact Trajectory Similarity Search"
+authors:
+  - family-names: Dong
+    given-names: Xin
+    affiliation: "Fuzhou University"
+    email: "dongxin@fzu.edu.cn"
+    orcid: "https://orcid.org/0009-0009-4889-4449"
+  - family-names: Liu
+    given-names: Yusen
+    affiliation: "University of Technology Sydney"
+    email: "yusen.liu@uts.edu.au"
+  - family-names: Lu
+    given-names: Hua
+    affiliation: "Aalborg University"
+    email: "luhua@cs.aau.dk"
+  - family-names: Li
+    given-names: Huan
+    affiliation: "Zhejiang University"
+    email: "lihuan.cs@zju.edu.cn"
+  - family-names: Zhang
+    given-names: Dalin
+    affiliation: "Hangzhou Dianzi University"
+    email: "zhangdalin@hdu.edu.cn"
+  - family-names: Lai
+    given-names: Zhichen
+    affiliation: "Fuzhou University"
+    email: "lzc@fzu.edu.cn"
+  - family-names: Chen
+    given-names: Xing
+    affiliation: "Fuzhou University"
+    email: "chenxing@fzu.edu.cn"
+version: 1.0.0
+date-released: 2026-10-30
+license: Apache-2.0
+repository-code: "https://github.com/DongXinfzu/LEAP"

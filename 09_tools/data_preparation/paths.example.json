@@ -1,0 +1,26 @@
+{
+  "prepare_100k": {
+    "porto_source": "../../04_data/100k/source/porto_20200_compact",
+    "germany_source": "../../04_data/100k/source/germany_20200",
+    "porto_ids": "../../04_data/100k/source/porto_source_ids.json",
+    "germany_formal": "../../04_data/100k/source/germany_formal.npz",
+    "porto_asset": "../../04_data/100k/source/porto_frozen_asset.json",
+    "germany_asset": "../../04_data/100k/source/germany_frozen_asset.json",
+    "output_root": "../../14_logs/data_preparation/external_100k"
+  },
+  "prepare_sdd": {
+    "source_dir": "../../04_data/sdd/source/SequenceDistanceDataset/Trajectory",
+    "archive_manifest": "../../04_data/sdd/source/DOWNLOAD_MANIFEST.json",
+    "output_root": "../../14_logs/data_preparation/sdd_porto"
+  },
+  "audit_cities": {
+    "source_dir": "../../04_data/sdd/source/SequenceDistanceDataset/Trajectory",
+    "prepared_dir": "../../14_logs/data_preparation/sdd_porto/prepared/Porto",
+    "porto_protocol": "../../14_logs/data_preparation/sdd_porto/reports/PROTOCOL.json",
+    "output_root": "../../14_logs/data_preparation/sdd_audit"
+  },
+  "prepare_city_training": {
+    "source_dir": "../../04_data/sdd/source/SequenceDistanceDataset/Trajectory",
+    "output_root": "../../14_logs/data_preparation/sdd_training"
+  }
+}
